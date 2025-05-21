@@ -1,4 +1,5 @@
-This is the main/master repository for all java projects/codes created or imported from desktop
+This is the main/master repository which contains various small projects/codes (created or imported from desktop)
+for portfolios.
 
 The code's levels are categorised as:
 - low/educated: codes for beginners even students
