@@ -9,9 +9,9 @@ This code executes/provide execute **cryptographic** to securely **encrypt** and
 
 ## Usage
 ```java
-import java.security.*;
-import javax.crypto.*;
-import java.util.Base64;
+import java.security.*; --> KeyPair<Public,Private>
+import javax.crypto.*; --> SecretKey
+import java.util.Base64; --> Base64.getEncoder()
 
 Add External Archive(Library): bcprov-jdk18on-1.79.jar
 This jar contains the JCA/JCE provider and low-level API for the BC Java
