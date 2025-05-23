@@ -2,7 +2,7 @@
 This code executes/provide execute **cryptographic** to securely **encrypt** and **decrypt** information.
 
 ## Features
-- Simple, easy-to-use encryption, decryption functions
+- Simple, easy-to-use encryption-decryption functions
 - Based on proven cryptographic algorithms (RSA,DES,etc.)
 - Distinguished as symmetric and asymmetric cryptography
 - The information is saved and stored in cryptographic files(.txt,...)
