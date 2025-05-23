@@ -6,6 +6,7 @@ This code executes/provide execute **cryptographic** to securely **encrypt** and
 - Based on proven cryptographic algorithms (RSA,DES,etc.)
 - Distinguished as symmetric and asymmetric cryptography
 - The information is saved and stored in cryptographic files(.txt,...)
+- input.txt is the original information (message)
 
 ## Usage
 ```java
