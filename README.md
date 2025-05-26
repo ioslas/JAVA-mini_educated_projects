@@ -4,4 +4,4 @@ for portfolios.
 In this path we have the code's levels (files) categorised as:
 - low/educated: codes for beginners even students
 - medium/intermediate: codes for junior level jobs or interships
-- proffesiona/ladvanced: codes for senior level jobs/proffesionals
+- professional/advanced: codes for senior level jobs/professionals
