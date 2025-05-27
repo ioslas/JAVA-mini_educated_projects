@@ -15,7 +15,8 @@ This java module provides simple and secure **encryption and decryption** of dat
 - `java.util.Base64` --> Base64.getEncoder()
 
 # External Libraries
-- **bcprov-jdk18on-1.79.jar**: [Source: Bouncy Castle](https://www.bouncycastle.org/)
+- **bcprov-jdk18on-1.79.jar**: [Bouncy Castle](https://www.bouncycastle.org/)
+  f
 
 ## Usage
 ```java
