@@ -9,12 +9,12 @@ This java module provides simple and secure **encryption and decryption** of dat
 - Uses `input.txt` to read the original plain message
 
 ##  Technologies used
-# Packages (import)
+### Packages (import)
 - `java.security.*` --> KeyPair<Public,Private>
 - `javax.crypto.*` --> SecretKey
 - `java.util.Base64` --> Base64.getEncoder()
 
-# External Libraries
+### External Libraries
 - **bcprov-jdk18on-1.79.jar**: [Bouncy Castle](https://www.bouncycastle.org/) <br>
   MUST be added to your project as an external archive
 
