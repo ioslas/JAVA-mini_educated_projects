@@ -1,18 +1,22 @@
 ## Cryptography Module
-This code executes/provide execute **cryptographic** to securely **encrypt** and **decrypt** information.
+This java module provides simple and secure **encryption and decryption** of data using both symmetric and asymmetric cryptography.
 
 ## Features
-- Simple, easy-to-use encryption-decryption functions
-- Based on proven cryptographic algorithms (RSA,DES,etc.)
-- Distinguished as symmetric and asymmetric cryptography
-- The information is saved and stored in cryptographic files(.txt,...)
-- input.txt is the original information/message
+- Simple, easy-to-use Encryption-Decryption functions
+- Based on proven cryptographic algorithms: **RSA**, **DES**, etc.
+- Supports both **symmetric** and **asymmetric** cryptographic algorithms
+- The data information is saved and stored in cryptographic files(.txt, .aes, ...)
+- Uses `input.txt` to read the original plain message
+
+##  Technologies used
+# Packages (import)
+- `java.security.*` --> KeyPair<Public,Private>
+- `javax.crypto.*` --> SecretKey
+- `java.util.Base64` --> Base64.getEncoder()
+
+# External Libraries
+- **bcprov-jdk18on-1.79.jar**: [Bouncy Castle](https://www.bouncycastle.org/) 
+This jar contains the JCA/JCE provider and low-level API for the BC Java
 
 ## Usage
 ```java
-import java.security.*; --> KeyPair<Public,Private>
-import javax.crypto.*; --> SecretKey
-import java.util.Base64; --> Base64.getEncoder()
-
-Add External Archive(Library): bcprov-jdk18on-1.79.jar
-This jar contains the JCA/JCE provider and low-level API for the BC Java
