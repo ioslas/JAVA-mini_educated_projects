@@ -1,6 +1,6 @@
 # Java Cryptography 
 ## Module
-This java module provides simple and secure **encryption and decryption** of data using both symmetric and asymmetric cryptography.
+This Java module provides simple and secure **encryption and decryption** of data using both symmetric and asymmetric cryptography.
 
 ## Features
 - Simple, easy-to-use Encryption-Decryption functions
