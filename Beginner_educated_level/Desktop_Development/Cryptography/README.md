@@ -16,5 +16,5 @@ This Java module provides simple and secure **encryption and decryption** of dat
 `java.util.Base64` --> Base64.getEncoder()...<br>
 
 - **libraries**
-**External Library**: bcprov-jdk18on-1.79.jar
-This jar contains the JCA/JCE provider and low-level API f
+**External Library**: [Source](https://www.bouncycastle.org/)
+`bcprov-jdk18on-1.79.jar` must be added to your project as an external archive
