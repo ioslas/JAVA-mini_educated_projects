@@ -22,4 +22,4 @@ This module supports the **basic principle and philosophy** of one of the most i
 2. Some parts of code are breaking the principle of **DRY (Don't Repeat Yourself)**:
    \- Same method in 2 different classes (e.g. Dijkstra on both Weighted Directed and Undirected Graph)
    \- Some methods executed more than once (Johnson uses Dijkstra and Bellman)<br>
-   *Unfortunately, we can't afford this, else we will have syntax or logical errors.*
+*Unfortunately, we can't afford this, else we will have syntax or logical errors.*
