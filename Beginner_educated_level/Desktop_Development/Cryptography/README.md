@@ -27,6 +27,3 @@ Must be added to your project as an **external archive**
 javac *.java
 java EncryptionDecryption
 ```
-
-# Notes
-If you have special app for JAVA codes like **ORACLE** just import the directory in it.  
