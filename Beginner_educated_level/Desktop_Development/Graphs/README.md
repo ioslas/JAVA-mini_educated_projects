@@ -8,11 +8,17 @@ This module supports the **basic principle and philosophy** of one of the most i
 ## Features
 - The number of **vertices and edges** are given randomly
 - We use an **abstract superclass** and **it's subclasses** which represent the above diagram
-- Following the method of the known **graph algorithms** for finding the shortest path between 2 vertices which depends on the **type of graph**:<br>
+- Following the method of the known **graph algorithms (solutions)** of the **shortest path problem** between 2 vertices which depends on the **type of graph**:<br>
   | Graph Types        | Algorithms                       |
   |------------------  |----------------------------------|
   |Weigthed Graphs     | **DIJKSTRA, Bellman-Ford, ...**  |
-  |Unweighted Graphs   | **DFS, AFS, ...**                |
+  |Unweighted Graphs   | **DFS, BFS, ...**                |
   | ...                | **...**                          |
   | All                | **Floyd-Warshall, ...**          |
-- 
+
+### Notes
+1. Algotihms of **Prim & Kruskal** are not included because our goal is the **shortest path problem**, and these 2 are for **Minimum Spanning Tree (MST)**
+2. Some parts of code are breaking the principle of **DRY (Don't Repeat Yourself)**:
+   - Same method in 2 different classes (e.g. Dijkstra on both Weighted Directed and Undirected Graph)
+   - Some methods executed more than once (Johnson uses Dijkstra and Bellman)<br>
+   Unfortunately, we can't afford this, else we will have syntax or logical errors
