@@ -6,7 +6,7 @@ This Java module provides simple and secure **encryption and decryption** of dat
 - Simple, easy-to-use **encryption-decryption** functions
 - Based on proven, well-known cryptographic algorithms (**RSA,DES,etc.**)
 - The module supports both **symmetric and asymmetric** cryptographic algorithms.
-- The information is saved and stored in **cryptographic files**(.txt,.rsa,.aes,...)
+- The information is saved and stored in **cryptographic files** (.txt,.rsa,.aes,...)
 - input.txt is the **original plain message**
 
 ## Technologies Used
