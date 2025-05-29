@@ -9,6 +9,12 @@ This module supports the **basic principle and philosophy** of one of the most i
 - The number of **vertices and edges** are given randomly
 - We use an **abstract superclass** and **it's subclasses** which represent the above diagram
 - Following the known **graph algorithms** for finding the shortest path between 2 vertices which depends on the type of graph:<br>
+| Αλγόριθμος     | Τύπος       | Περιγραφή                              |
+|----------------|-------------|-----------------------------------------|
+| RSA            | Ασύμμετρη   | Χρησιμοποιεί δημόσιο και ιδιωτικό κλειδί |
+| AES            | Συμμετρική  | Χρησιμοποιεί ένα μόνο κλειδί για όλα    |
+
+## d
   |:---------------|:------------------------------:|
   |Weigthed Graphs   | DIJKSTRA, Bellman-Ford, ...  |
   |Unweighted Graphs | DES, AES, ...                | 
