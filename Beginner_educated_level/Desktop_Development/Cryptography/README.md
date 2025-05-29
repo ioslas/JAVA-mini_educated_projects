@@ -19,6 +19,11 @@ This Java module provides simple and secure **encryption and decryption** of dat
   [External Library](https://www.bouncycastle.org/): `bcprov-jdk18on-1.79.jar`<br>
 Must be added to your project as an **external archive**
 
+## How to Run
+1. Clone the repository or download the files.
+2. Add the `bcprov-jdk18on-1.79.jar` to your project's libraries.
+3. if you
+   
 ```bash (if you run it on cmd)
 javac *.java
 java EncryptionDecryption
