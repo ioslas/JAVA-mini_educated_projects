@@ -1,13 +1,14 @@
 # JAVA Graphs Shortest Path
 ## Module
-This module supports the **basic principle and philosophy** of one of the most important data types called as **Graphs** and is implemented into **2 procedures**:
+This module supports the **basic principle and philosophy** of one of the most important data structures called as **Graphs** and is implemented into **2 procedures**:
 1. **Graph Creation and Printing** which is distinguished into 4 parts or types:
 ![Ανώνυμο διάγραμμα drawio](https://github.com/user-attachments/assets/6dfdb800-5da4-4f84-8935-ee5d259fcca8)
 2. Finding the **Shortest Path and Distance** (for the weighted graphs) of 2 graph's vertices known as **start & target**
 
 ## Features
-- The number of **vertices and edges** are given randomly
+- The number of **vertices** are given randomly
 - We use an **abstract superclass** and **it's subclasses** which represent the above diagram
+- In main we use tables to differentiate the classes based on the graph types 
 - Following the method of the known **graph algorithms (solutions)** of the **shortest path problem** between 2 vertices which depends on the **type of graph**:
   
   | Graph Types        | Algorithms                       |
@@ -17,8 +18,11 @@ This module supports the **basic principle and philosophy** of one of the most i
   | ...                | **...**                          |
   | All                | **Floyd-Warshall, ...**          |
 
-# Technologies Used
-
+## Technologies Used
+`import java.util.*;`
+- `Random`: to create random number of vertices
+- 'Scanner': input from keyboard
+- ALL the important data structures: `LinkedList, HashMap, HashSet(for duplicates), Queue(PriorityQueue), etc`  
 
 ### Notes
 1. Algotihms of **Prim & Kruskal** are not included because our goal is the **shortest path problem**, and these 2 are for **Minimum Spanning Tree (MST)**
