@@ -1,7 +1,15 @@
 # JAVA Graphs Shortest Path
 ## Module
-This code module is implemented into 2 parts:
-1. Graph Creation which is distinguished into 4 parts:
-![Ανώνυμο διάγραμμα drawio](https://github.com/user-attachments/assets/8a0d2293-4f3c-4e24-bbbb-bf9f1644180b)
+This module supports the **basic principle and philosophy** of one of the most important data types called as **Graphs** and is implemented into **2 procedures**:
+1. **Graph Creation and Printing** which is distinguished into 4 parts or types:
+![Ανώνυμο διάγραμμα drawio](https://github.com/user-attachments/assets/6dfdb800-5da4-4f84-8935-ee5d259fcca8)
+2. Finding the **Shortest Path and Distance** (for the weighted graphs) of 2 graph's vertices known as **start & target**
 
-2. 
+## Features
+- The number of **vertices and edges** are given randomly
+- We use an **abstract superclass** and **it's subclasses** which represent the above diagram
+- Following the known **graph algorithms** for finding the shortest path between 2 vertices which depends on the type of graph:
+  |:-----------------|:-----------------------------|
+  |Weigthed Graphs   | DIJKSTRA, Bellman-Ford, ...  |
+  |Unweighted Graphs | DES, AES, ...                | 
+-  
