@@ -22,7 +22,15 @@ This module supports the **basic principle and philosophy** of one of the most i
 `import java.util.*;`
 - `Random`: to create random number of vertices
 - `Scanner`: input from keyboard
-- ALL the important **data structures**: `LinkedList, HashMap, HashSet(for duplicates), Queue(PriorityQueue)`, etc.  
+- ALL the important **data structures**: `LinkedList, HashMap, HashSet(for duplicates), Queue(PriorityQueue)`, etc.
+
+## How to run
+1. Clone the repository or download the files.
+2. Compile and run Java Files (if you run it on cmd):
+```
+javac *.java
+java GraphShortestPath
+```
 
 ### Notes
 1. Algotihms of **Prim & Kruskal** are not included because our goal is the **shortest path problem**, and these 2 are for **Minimum Spanning Tree (MST)**
