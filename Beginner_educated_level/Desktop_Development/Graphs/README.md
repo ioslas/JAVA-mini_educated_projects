@@ -19,7 +19,7 @@ This module supports the **basic principle and philosophy** of one of the most i
 
 ### Notes
 1. Algotihms of **Prim & Kruskal** are not included because our goal is the **shortest path problem**, and these 2 are for **Minimum Spanning Tree (MST)**
-2. Some parts of code are breaking the principle of **DRY (Don't Repeat Yourself)**:
+2. Some parts of code are breaking the principle of **DRY (Don't Repeat Yourself)**:<br>
    \- Same method in 2 different classes (e.g. Dijkstra on both Weighted Directed and Undirected Graph)
    \- Some methods executed more than once (Johnson uses Dijkstra and Bellman)<br>
 *Unfortunately, we can't afford this, else we will have syntax or logical errors.*
