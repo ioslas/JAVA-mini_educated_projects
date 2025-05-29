@@ -9,6 +9,7 @@ This module supports the **basic principle and philosophy** of one of the most i
 - The number of **vertices and edges** are given randomly
 - We use an **abstract superclass** and **it's subclasses** which represent the above diagram
 - Following the method of the known **graph algorithms (solutions)** of the **shortest path problem** between 2 vertices which depends on the **type of graph**:
+  
   | Graph Types        | Algorithms                       |
   |------------------  |----------------------------------|
   |Weigthed Graphs     | **DIJKSTRA, Bellman-Ford, ...**  |
