@@ -11,9 +11,9 @@ This Java module provides simple and secure **encryption and decryption** of dat
 
 ## Technologies Used
 - **packages (import)**
-`java.security.*` --> KeyPair<Public,Private>
-`javax.crypto.*` --> SecretKey
-`java.util.Base64` --> Base64.getEncoder()...
+`java.security.*` --> KeyPair<Public,Private><br>
+`javax.crypto.*` --> SecretKey<br>
+`java.util.Base64` --> Base64.getEncoder()...<br>
 
 - **libraries**
 **External Library**: bcprov-jdk18on-1.79.jar
