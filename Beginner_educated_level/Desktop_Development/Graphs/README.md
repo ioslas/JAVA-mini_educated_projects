@@ -8,11 +8,11 @@ This module supports the **basic principle and philosophy** of one of the most i
 ## Features
 - The number of **vertices and edges** are given randomly
 - We use an **abstract superclass** and **it's subclasses** which represent the above diagram
-- Following the known **graph algorithms** for finding the shortest path between 2 vertices which depends on the type of graph:
-|:---------------|:--------------:|---------------:|
-| Κείμενο A      | Κείμενο B      | Κείμενο C      |
-| Άλλο κείμενο   | Κείμενο Κέντρο | Κείμενο Δεξιά  |
-
+- Following the known **graph algorithms** for finding the shortest path between 2 vertices which depends on the type of graph:<br>
+| Στήλη 1       | Στήλη 2       | Στήλη 3       |
+|--------------|---------------|---------------|
+| Περιεχόμενο 1 | Περιεχόμενο 2 | Περιεχόμενο 3 |
+| Περιεχόμενο 4 | Περιεχόμενο 5 | Περιεχόμενο 6 |
   |:---------------|:------------------------------:|
   |Weigthed Graphs   | DIJKSTRA, Bellman-Ford, ...  |
   |Unweighted Graphs | DES, AES, ...                | 
