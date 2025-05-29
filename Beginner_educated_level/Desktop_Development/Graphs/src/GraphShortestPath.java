@@ -76,10 +76,10 @@ public class GraphShortestPath {
 				//Find short paths algorithms
 				if(i<2) { 
 					//Algoriths who work only on unweighted graphs
-					//BFS
+					//BFS (Breadth-First Search)
 					System.out.println("\nBFS algorithm: ");
 					gr[i].BFS(s,t);
-					//DFS
+					//DFS (Depth-First Search)
 					System.out.println("\nDFS algorithm: ");
 					gr[i].DFS(s,t);
 				}else {
