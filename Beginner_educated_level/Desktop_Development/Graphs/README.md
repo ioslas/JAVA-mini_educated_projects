@@ -44,6 +44,6 @@ java GraphShortestPath
 *Unfortunately, we can't afford this, otherwise we will have syntax or logical errors.*
 
 ## Changelog
-- **1.2.0**: Adding Johnson Algorithm in 2 classes which can work Weighted_Direct_Graph, Weight_Undirected_Graph. This counts as 2.
-- **1.2.1**: Adding a variable flag to avoid printing_path when I call Bellman or Dijkstra from Johnson algorithm.
-- **1.2.3**: Adding method setFlag to give the flag the suitable value (0,1) in the suitable situation in order to achieve the above. Just like the 1st it's added in 2 classes and counts as 2.  
+- **1.1.0**: Added Johnson Algorithm implementation in two classes: `WeightDirectGraph, WeightUndirectGraph`.
+- **1.1.1**: Added a variable `flag` to avoid printing_path when calling Bellman or Dijkstra from Johnson algorithm.
+- **1.1.2**: Added method `setFlag` to give `flag` the suitable value (0,1) in the suitable situation in order to achieve the above behavior.  
