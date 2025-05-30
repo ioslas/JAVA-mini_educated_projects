@@ -1,6 +1,8 @@
 # Java Cryptography
 ![Java](https://img.shields.io/badge/Language-Java-purple)
 ![Version](https://img.shields.io/badge/Version-1.0-orange)
+![Status](https://img.shields.io/badge/Status-Completed-green)
+
 ## Module
 This Java module provides simple and secure **encryption and decryption** of data information using both **symmetric and asymmetric** cryptography.
 
