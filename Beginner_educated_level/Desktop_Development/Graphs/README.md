@@ -48,6 +48,15 @@ Add edges with src=numVert: 3
 ```
 - Graph Visualization (This below is just an example)<br>
 ![Στιγμιότυπο οθόνης 2025-05-31 001920-imageonline co-merged](https://github.com/user-attachments/assets/608ada87-2c69-446a-b620-0af594345630)
+- Find Shortest Path
+```java
+FIND SHORTEST PATH with SRC and TARGET
+Give start vertices: 2
+Give target vertices: 4
+``` 
+![Στιγμιότυπο οθόνης 2025-05-31 005406](https://github.com/user-attachments/assets/a285a7f5-67f2-4648-ac8d-a0ffcfb7ea9f)
+![Στιγμιότυπο οθόνης 2025-05-31 005531-imageonline co-merged](https://github.com/user-attachments/assets/c77cb21a-091f-418f-8d99-fe6928a0874c)
+
 - 
 
 
