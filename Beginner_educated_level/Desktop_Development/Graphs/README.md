@@ -38,7 +38,7 @@ java GraphShortestPath
 
 ## Demo/Example Usage
 - Graph Creation
-```java
+```
 Add edges with src=0: 2
 Add edges with src=1: 4
           .
@@ -49,7 +49,7 @@ Add edges with src=numVert: 3
 - Graph Visualization (This below is just an example)<br>
 ![Στιγμιότυπο οθόνης 2025-05-31 001920-imageonline co-merged](https://github.com/user-attachments/assets/608ada87-2c69-446a-b620-0af594345630)
 - Find Shortest Path
-```java
+```
 FIND SHORTEST PATH with SRC and TARGET
 Give start vertices: 1
 Give target vertices: 2
@@ -64,7 +64,6 @@ Give target vertices: 2
 
 - User Interaction(Decision)<br>
 \- yes
-```java
 Do you want to continue(y/n)? y
 
 Give start vertices: ...
@@ -74,7 +73,6 @@ Give target vertices: ...
             .
 ```
 \- no
-```java
 Do you want to continue(y/n)? y
 
 End of operations!
