@@ -5,7 +5,7 @@ public class EncryptionDecryption {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		//SymmetricCryptography
-		System.out.println("Cryptography with Symmetric algorithms");
+		System.out.println("Cryptography with Symmetric algorithms\n");
 		try {
 			// AES: Advanced Encryption Standard
 			SymmetricEncDec aes= new AES();
@@ -40,7 +40,7 @@ public class EncryptionDecryption {
 		//AsymmetricCryptography
 		try {
 			// Private keys must remain secret, so not printed 
-			// RSA (Rivest–Shamir–Adleman)
+			// RSA (Rivestâ€“Shamirâ€“Adleman)
 			AsymmetricEncDec rsa= new RSA();
 			KeyPair kp = rsa.generateKeyPair();
 			System.out.println("RSA Public Key: "+ Base64.getEncoder().encodeToString(kp.getPublic().getEncoded()));
