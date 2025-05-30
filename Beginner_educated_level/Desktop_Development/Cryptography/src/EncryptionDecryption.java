@@ -40,7 +40,7 @@ public class EncryptionDecryption {
 		//AsymmetricCryptography
 		try {
 			// Private keys must remain secret, so not printed 
-			// RSA (Rivestâ€“Shamirâ€“Adleman)
+			// RSA (Rivest–Shamir–Adleman)
 			AsymmetricEncDec rsa= new RSA();
 			KeyPair kp = rsa.generateKeyPair();
 			System.out.println("RSA Public Key: "+ Base64.getEncoder().encodeToString(kp.getPublic().getEncoded()));
