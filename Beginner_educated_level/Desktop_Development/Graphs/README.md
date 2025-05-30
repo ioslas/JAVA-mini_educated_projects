@@ -1,6 +1,9 @@
 # JAVA Graphs Shortest Path
 ![Java](https://img.shields.io/badge/Language-Java-blue)
 ![License](https://img.shields.io/badge/License-MIT-green)
+![Version](https://img.shields.io/badge/Version-1.0-orange)
+![Status](https://img.shields.io/badge/Status-Completed-brightgreen)
+
 ## Module
 This module supports the **basic principle and philosophy** of one of the most important data structures called as **Graphs** and is organized into **2 main components**:
 1. **Graph Creation and (sort-of) Visualization** categorized into *4 distinct graph types*:
