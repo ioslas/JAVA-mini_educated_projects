@@ -54,11 +54,11 @@ FIND SHORTEST PATH with SRC and TARGET
 Give start vertices: 1
 Give target vertices: 2
 ```
-  - If path exists
+  * If path exists
 ![Στιγμιότυπο οθόνης 2025-05-31 005406](https://github.com/user-attachments/assets/a285a7f5-67f2-4648-ac8d-a0ffcfb7ea9f)<br>
 ![Στιγμιότυπο οθόνης 2025-05-31 005531-imageonline co-merged](https://github.com/user-attachments/assets/c77cb21a-091f-418f-8d99-fe6928a0874c)
 
-  - If path doesn't exist
+  * If path doesn't exist
    
 
 
