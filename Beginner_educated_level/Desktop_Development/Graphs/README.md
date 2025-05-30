@@ -35,6 +35,7 @@ This module supports the **basic principle and philosophy** of one of the most i
 javac *.java
 java GraphShortestPath
 ```
+
 ### Notes
 1. Algorithms of **Prim & Kruskal** are not included because our goal is the **shortest path problem**, and these 2 are for **Minimum Spanning Tree (MST)**
 2. Some parts of code are violating the principle of **DRY (Don't Repeat Yourself)**:<br>
@@ -42,3 +43,5 @@ java GraphShortestPath
    \- Some methods executed more than once (**Nested algorithm calls**) such as Johnson uses Dijkstra and Bellman<br>
 *Unfortunately, we can't afford this, otherwise we will have syntax or logical errors.*
 
+## Changelog
+- **1.1.0**: Adding Johnson Algorithm. 
