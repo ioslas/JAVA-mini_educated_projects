@@ -25,7 +25,7 @@ public class WeightDirectGraph extends Graph{
 		//if(weightAdj.get(src).get(dest) > weight) 
 		weightAdj.get(src).put(dest, weight);
 	}
-	public void setflag(int s) {
+	public void setFlag(int s) {
 		flag=s;
 	}
 	@Override
@@ -129,7 +129,7 @@ public class WeightDirectGraph extends Graph{
 			weightAdj.get(newVertex).put(i, 0); // temporary vertex V as the source
         }
 		// flag=1 -> this algorithm will use other algorithms
-		setflag(1);
+		setFlag(1);
 		
 		// Bellman-Ford algorithm to calculate vertex weights for re-weighting
 		 bellmanFord(newVertex, -1); // No target needed, we want all distances
@@ -165,7 +165,7 @@ public class WeightDirectGraph extends Graph{
         weightAdj = originalAdj;
         
         // flag=0 -> this algorithm won't use other algorithms anymore
-     	setflag(0);
+     	setFlag(0);
         
      	// Print path and distance
 		super.printWeightPath(start, target, distances, parent);
