@@ -5,7 +5,7 @@ public class WeightUndirectGraph extends Graph{
 	   parent: predecessor of each node in short path. For example 0->1: parent[1]=0 */
 	int[] distances, parent;
 	// Same as explained in the DirectGraph.java
-	private int semaphore=0;
+	private int flag=0;
 	// Constructor
 	public WeightUndirectGraph(int vert) {
 		super(vert);
@@ -28,9 +28,9 @@ public class WeightUndirectGraph extends Graph{
 			weightAdj.get(dest).put(src,weight);
 		}
 	}
-	public void setSemaphore(int s) {
+	public void setflag(int s) {
 		// TODO Auto-generated method stub
-		semaphore=s;
+		flag=s;
 	}
 	@Override
 	public void printGraph() {
@@ -83,7 +83,7 @@ public class WeightUndirectGraph extends Graph{
 				}	
 		}
 		// Ensuring it's called from main
-		if(semaphore==0)
+		if(flag==0)
 			super.printWeightPath(start, target, distances, parent);	
 	}
 	//Bellman-Ford
@@ -117,7 +117,7 @@ public class WeightUndirectGraph extends Graph{
         */ 
 
 		// Ensuring it's called from main
-		if(semaphore==0)
+		if(flag==0)
 			super.printWeightPath(start, target, distances, parent);
 	}
 	@Override
@@ -132,8 +132,8 @@ public class WeightUndirectGraph extends Graph{
 		for (int i = 0; i < vertices; i++) {
 			weightAdj.get(newVertex).put(i, 0); // temporary vertex V as the source
         }
-		// semaphore=1 -> this algorithm will use other algorithms
-		setSemaphore(1);
+		// flag=1 -> this algorithm will use other algorithms
+		setflag(1);
 		
 		// Bellman-Ford algorithm to calculate vertex weights for re-weighting
 		 bellmanFord(newVertex, -1); // No target needed, we want all distances
@@ -168,8 +168,8 @@ public class WeightUndirectGraph extends Graph{
         // Restore original graph
         weightAdj = originalAdj;
         
-        // semaphore=0 -> this algorithm won't use other algorithms anymore
-     	setSemaphore(0);
+        // flag=0 -> this algorithm won't use other algorithms anymore
+     	setflag(0);
         
      	// Print path and distance
 		super.printWeightPath(start, target, distances, parent);

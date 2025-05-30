@@ -1,11 +1,11 @@
 import java.util.*;
 
 public class WeightDirectGraph extends Graph{
-	/* I use this variable as SEMAPHORE in order to ensure that if an alogorithm (Johnson) use other algorithm
-	   semaphore=0 -> it's called from main
-	   semaphore=1 -> it's called from other algorithm (Johnson) */
+	/* I use flag as a semaphore in order to ensure that if an alogorithm (Johnson) use other algorithm
+	   flag=0 -> it's called from main
+	   flag=1 -> it's called from other algorithm (Johnson) */
 	// Main purpose avoid code(printing) duplication
-	private int semaphore=0;	
+	private int flag=0;	
 	// Same as explained in the UndirectGraph.java
 	int[] distances, parent;
 	// Constructor
@@ -25,8 +25,8 @@ public class WeightDirectGraph extends Graph{
 		//if(weightAdj.get(src).get(dest) > weight) 
 		weightAdj.get(src).put(dest, weight);
 	}
-	public void setSemaphore(int s) {
-		semaphore=s;
+	public void setflag(int s) {
+		flag=s;
 	}
 	@Override
 	public void printGraph() {
@@ -79,7 +79,7 @@ public class WeightDirectGraph extends Graph{
 				}	
 		}
 		// Ensuring it's called from main
-		if(semaphore==0)
+		if(flag==0)
 			super.printWeightPath(start, target, distances, parent);	
 	}
 	//Bellman-Ford
@@ -113,7 +113,7 @@ public class WeightDirectGraph extends Graph{
         */ 
 
 		// Ensuring it's called from main
-		if(semaphore==0)
+		if(flag==0)
 			super.printWeightPath(start, target, distances, parent);
 	}
 	@Override
@@ -128,8 +128,8 @@ public class WeightDirectGraph extends Graph{
 		for (int i = 0; i < vertices; i++) {
 			weightAdj.get(newVertex).put(i, 0); // temporary vertex V as the source
         }
-		// semaphore=1 -> this algorithm will use other algorithms
-		setSemaphore(1);
+		// flag=1 -> this algorithm will use other algorithms
+		setflag(1);
 		
 		// Bellman-Ford algorithm to calculate vertex weights for re-weighting
 		 bellmanFord(newVertex, -1); // No target needed, we want all distances
@@ -164,8 +164,8 @@ public class WeightDirectGraph extends Graph{
         // Restore original graph
         weightAdj = originalAdj;
         
-        // semaphore=0 -> this algorithm won't use other algorithms anymore
-     	setSemaphore(0);
+        // flag=0 -> this algorithm won't use other algorithms anymore
+     	setflag(0);
         
      	// Print path and distance
 		super.printWeightPath(start, target, distances, parent);
