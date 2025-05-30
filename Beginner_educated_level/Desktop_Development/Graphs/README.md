@@ -47,10 +47,9 @@ Add edges with src=1: 4
 Add edges with src=numVert: 3
 ```
 - Graph Visualization (This below is just an example)
-```java
-![Στιγμιότυπο οθόνης 2025-05-31 001852](https://github.com/user-attachments/assets/dc5cf46e-0a38-45a3-aa27-b4b9acb072b1)
-![Στιγμιότυπο οθόνης 2025-05-31 001920](https://github.com/user-attachments/assets/cba97630-c034-4772-9a0b-6d07bdf8d5bb)
-``` 
+![Στιγμιότυπο οθόνης 2025-05-31 001920](https://github.com/user-attachments/assets/abab3e40-5cc9-4e41-91f7-eae5308d337d)
+![Στιγμιότυπο οθόνης 2025-05-31 001852](https://github.com/user-attachments/assets/f35f94b1-456a-4d98-9ecb-5a69a99bf092)
+
 - 
 
 
