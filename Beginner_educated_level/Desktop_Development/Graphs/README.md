@@ -36,6 +36,22 @@ javac *.java
 java GraphShortestPath
 ```
 
+## Demo/Example Usage
+- Graph Creation
+```java
+Add edges with src=0: 2
+Add edges with src=1: 4
+        ...
+Add edges with src=numVert: 3
+```
+- Graph Visualization (This below is just an example)
+```java
+![Στιγμιότυπο οθόνης 2025-05-31 001852](https://github.com/user-attachments/assets/dc5cf46e-0a38-45a3-aa27-b4b9acb072b1)
+![Στιγμιότυπο οθόνης 2025-05-31 001920](https://github.com/user-attachments/assets/cba97630-c034-4772-9a0b-6d07bdf8d5bb)
+``` 
+- 
+
+
 ### Notes
 1. Algorithms of **Prim & Kruskal** are not included because our goal is the **shortest path problem**, and these 2 are for **Minimum Spanning Tree (MST)**
 2. Some parts of code are violating the principle of **DRY (Don't Repeat Yourself)**:<br>
