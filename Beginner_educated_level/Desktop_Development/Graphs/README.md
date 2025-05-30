@@ -62,6 +62,25 @@ Give target vertices: 2
 ![Στιγμιότυπο οθόνης 2025-05-31 010109](https://github.com/user-attachments/assets/2b767dee-8519-43f1-bf4f-ebae6fd10425)<br>
 ![Στιγμιότυπο οθόνης 2025-05-31 010812](https://github.com/user-attachments/assets/d277a0b8-d28f-477b-a13a-dcd52695325c)<br>
 
+- User Decision
+\- yes
+```java
+Do you want to continue(y/n)? y
+
+Give start vertices: ...
+Give target vertices: ...
+            .
+            .
+            .
+```
+\- no
+```java
+Do you want to continue(y/n)? y
+
+End of operations!
+```
+
+
 ### Notes
 1. Algorithms of **Prim & Kruskal** are not included because our goal is the **shortest path problem**, and these 2 are for **Minimum Spanning Tree (MST)**
 2. Some parts of code are violating the principle of **DRY (Don't Repeat Yourself)**:<br>
