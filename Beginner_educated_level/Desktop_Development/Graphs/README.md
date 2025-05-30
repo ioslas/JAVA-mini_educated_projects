@@ -55,11 +55,11 @@ Give start vertices: 1
 Give target vertices: 2
 ```
   * If path exists <br>
-![Στιγμιότυπο οθόνης 2025-05-31 005406](https://github.com/user-attachments/assets/a285a7f5-67f2-4648-ac8d-a0ffcfb7ea9f)<br>
+![Στιγμιότυπο οθόνης 2025-05-31 005406](https://github.com/user-attachments/assets/1b4b7cdf-3819-4d9a-8db7-14a8216b887d)<br>
 ![Στιγμιότυπο οθόνης 2025-05-31 005531-imageonline co-merged](https://github.com/user-attachments/assets/c77cb21a-091f-418f-8d99-fe6928a0874c) <br>
   * If path doesn't exist <br>
-![Στιγμιότυπο οθόνης 2025-05-31 010109](https://github.com/user-attachments/assets/b3f6b323-3c7e-4f1e-b92a-1535e2c12b20)<br>
-![Στιγμιότυπο οθόνης 2025-05-31 010812](https://github.com/user-attachments/assets/d277a0b8-d28f-477b-a13a-dcd52695325c)
+![Στιγμιότυπο οθόνης 2025-05-31 010109](https://github.com/user-attachments/assets/2b767dee-8519-43f1-bf4f-ebae6fd10425)<br>
+![Στιγμιότυπο οθόνης 2025-05-31 010812](https://github.com/user-attachments/assets/d277a0b8-d28f-477b-a13a-dcd52695325c)<br>
 
 ### Notes
 1. Algorithms of **Prim & Kruskal** are not included because our goal is the **shortest path problem**, and these 2 are for **Minimum Spanning Tree (MST)**
