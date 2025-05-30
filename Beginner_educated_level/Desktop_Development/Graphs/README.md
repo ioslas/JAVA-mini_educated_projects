@@ -47,8 +47,7 @@ Add edges with src=1: 4
 Add edges with src=numVert: 3
 ```
 - Graph Visualization (This below is just an example)<br>
-![Στιγμιότυπο οθόνης 2025-05-31 001920-imageonline co-merged](https://github.com/user-attachments/assets/c054e506-39f8-458a-a9f9-f554c6e8075e)
-
+![Στιγμιότυπο οθόνης 2025-05-31 001920-imageonline co-merged](https://github.com/user-attachments/assets/608ada87-2c69-446a-b620-0af594345630)
 - 
 
 
