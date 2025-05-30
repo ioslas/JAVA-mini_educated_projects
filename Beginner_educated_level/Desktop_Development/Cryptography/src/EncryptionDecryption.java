@@ -36,8 +36,9 @@ public class EncryptionDecryption {
 		}catch(Exception e) {
 			e.printStackTrace();
 		}
-		System.out.println();
+		System.out.println("\n");
 		//AsymmetricCryptography
+		System.out.println("Cryptography with Asymmetric algorithms\n");
 		try {
 			// Private keys must remain secret, so not printed 
 			// RSA (Rivest–Shamir–Adleman)
