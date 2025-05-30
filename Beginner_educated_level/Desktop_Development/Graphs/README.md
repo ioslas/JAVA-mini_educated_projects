@@ -1,9 +1,11 @@
 # JAVA Graphs Shortest Path
+![Java](https://img.shields.io/badge/Language-Java-blue)
+![License](https://img.shields.io/badge/License-MIT-green)
 ## Module
-This module supports the **basic principle and philosophy** of one of the most important data structures called as **Graphs** and is implemented into **2 procedures**:
-1. **Graph Creation and Printing** which is distinguished into 4 parts or types:
+This module supports the **basic principle and philosophy** of one of the most important data structures called as **Graphs** and is organized into **2 main components**:
+1. **Graph Creation and (sort-of) Visualization** categorized into *4 distinct graph types*:
 ![Ανώνυμο διάγραμμα drawio](https://github.com/user-attachments/assets/6dfdb800-5da4-4f84-8935-ee5d259fcca8)
-2. Finding the **Shortest Path and Distance** (for the weighted graphs) of 2 graph's vertices known as **start & target**
+2. Calculates the **Shortest Path and Distance** (for the weighted graphs) between 2 vertices referred to as **start & target**
 
 ## Features
 - The number of **vertices** are given randomly
@@ -20,7 +22,7 @@ This module supports the **basic principle and philosophy** of one of the most i
 
 ## Technologies Used
 `import java.util.*;`
-- `Random`: to create random number of vertices
+- `Random`: generate random number of vertices
 - `Scanner`: input from keyboard
 - ALL the important **data structures**: `LinkedList, HashMap, HashSet(for duplicates), Queue(PriorityQueue)`, etc.
 
@@ -31,11 +33,10 @@ This module supports the **basic principle and philosophy** of one of the most i
 javac *.java
 java GraphShortestPath
 ```
-![Java](https://img.shields.io/badge/Language-Java-blue)
 ### Notes
 1. Algorithms of **Prim & Kruskal** are not included because our goal is the **shortest path problem**, and these 2 are for **Minimum Spanning Tree (MST)**
 2. Some parts of code are violating the principle of **DRY (Don't Repeat Yourself)**:<br>
    \- Same method in 2 different classes (e.g. Dijkstra on both Weighted Directed and Undirected Graph)<br>
-   \- Some methods executed more than once (Johnson uses Dijkstra and Bellman)<br>
+   \- Some methods executed more than once (**Nested algorithm calls**) such as Johnson uses Dijkstra and Bellman<br>
 *Unfortunately, we can't afford this, otherwise we will have syntax or logical errors.*
 
