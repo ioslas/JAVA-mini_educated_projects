@@ -41,9 +41,9 @@ java GraphShortestPath
 ```java
 Add edges with src=0: 2
 Add edges with src=1: 4
-```
-<pre>```java ...```</pre>
-```java
+          .
+          .
+          .
 Add edges with src=numVert: 3
 ```
 - Graph Visualization (This below is just an example)
