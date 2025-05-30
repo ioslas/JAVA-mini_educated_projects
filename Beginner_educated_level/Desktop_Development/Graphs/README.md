@@ -63,7 +63,7 @@ Give target vertices: 2
 ![Στιγμιότυπο οθόνης 2025-05-31 010812](https://github.com/user-attachments/assets/d277a0b8-d28f-477b-a13a-dcd52695325c)<br>
 
 - User Interaction(Decision)<br>
-  \- yes
+\- yes
 ```java
 Do you want to continue(y/n)? y
 
@@ -73,7 +73,7 @@ Give target vertices: ...
             .
             .
 ```
-  \- no
+\- no
 ```java
 Do you want to continue(y/n)? y
 
