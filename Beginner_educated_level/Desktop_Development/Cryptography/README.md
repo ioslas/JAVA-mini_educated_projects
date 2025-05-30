@@ -1,5 +1,5 @@
 # Java Cryptography
-![Java](https://img.shields.io/badge/Language-Java-purple)
+![Java](https://img.shields.io/badge/Language-Java-007396?logo=java&logoColor=white)
 ![Version](https://img.shields.io/badge/Version-1.0-orange)
 ![Status](https://img.shields.io/badge/Status-Completed-brightgreen)
 
