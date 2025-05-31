@@ -1,1 +1,0 @@
-We distinguished the codes/projects from desktop-development and web-development
