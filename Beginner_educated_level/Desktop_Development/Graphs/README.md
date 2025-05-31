@@ -85,7 +85,8 @@ Give target vertices: 2
   Invalid answer.Try again!
   Do you want to continue(y/n)? ...
   ```
-  *The y/n are **case-insensitive** *
+
+  *Note: The y/n are **case-insensitive** *
 ### Notes
 1. Algorithms of **Prim & Kruskal** are not included because our goal is the **shortest path problem**, and these 2 are for **Minimum Spanning Tree (MST)**
 2. Some parts of code are violating the principle of **DRY (Don't Repeat Yourself)**:<br>
