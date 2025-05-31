@@ -62,8 +62,8 @@ Give target vertices: 2
 ![Στιγμιότυπο οθόνης 2025-05-31 010109](https://github.com/user-attachments/assets/2b767dee-8519-43f1-bf4f-ebae6fd10425)<br>
 ![Στιγμιότυπο οθόνης 2025-05-31 010812](https://github.com/user-attachments/assets/d277a0b8-d28f-477b-a13a-dcd52695325c)<br>
 
-- ### User Interaction(Decision)
-  \- **yes**
+- **User Interaction(Decision)**
+  \- yes
   ```
   Do you want to continue(y/n)? y
   
@@ -73,7 +73,7 @@ Give target vertices: 2
               .
               .
   ```
-  \- **no**
+  \- no
   ```
   Do you want to continue(y/n)? y
   
