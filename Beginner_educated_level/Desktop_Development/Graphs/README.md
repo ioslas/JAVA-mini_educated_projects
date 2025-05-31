@@ -64,6 +64,7 @@ Give target vertices: 2
 
 - User Interaction(Decision)<br>
 \- yes
+```
 Do you want to continue(y/n)? y
 
 Give start vertices: ...
@@ -73,11 +74,11 @@ Give target vertices: ...
             .
 ```
 \- no
+```
 Do you want to continue(y/n)? y
 
 End of operations!
 ```
-
 
 ### Notes
 1. Algorithms of **Prim & Kruskal** are not included because our goal is the **shortest path problem**, and these 2 are for **Minimum Spanning Tree (MST)**
