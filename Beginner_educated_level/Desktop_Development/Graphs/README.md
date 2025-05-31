@@ -79,6 +79,12 @@ Give target vertices: 2
   
   End of operations!
   ```
+  \- *Message*
+  ```
+  Do you want to continue(y/n)? (not y or n)
+  Invalid answer.Try again!
+  Do you want to continue(y/n)? ...
+  ```
 
 ### Notes
 1. Algorithms of **Prim & Kruskal** are not included because our goal is the **shortest path problem**, and these 2 are for **Minimum Spanning Tree (MST)**
