@@ -1,7 +1,7 @@
 # Main Repository
 ## Introduction
 This is the main/master repository which contains various small-educational projects/codes (created or imported from desktop)
-for improving portfolios or practice in Java language.
+for improving portfolios or practice in **Java** language.
 
 ## Project Levels
 The codes are organized into ("educational") difficulty levels based on **conceptual complexity and learning goals**:
