@@ -4,7 +4,8 @@ This is the main/master repository which contains various small-educational proj
 for portfolios or practice in Java language.
 
 ## Project Levels
-The codes are organized into (educational\) levels based on **conceptual complexity and learning goals**:
-- junior/beginner: Basic programs ideal for new learners or high school students (e.g. HelloWorld, simple input-output) 
-- medium/senior/intermediate: codes for junior level jobs or interships
-- professional/advanced: codes for senior level jobs/professionals
+The codes are organized into ("educational") difficulty levels based on **conceptual complexity and learning goals**:
+- **junior/beginner**: Basic programs ideal even for new learners or high school students (e.g. HelloWorld, simple input-output) 
+- **medium/advanced**: More educational and problem-solving oriented, aimed more for self-taught learners who want to improve their programming skills.
+- **(pre-)professional/senior**: More complete and structured projects. Suitable for building portfolios or using it in graduated thesis (or even in internships). 
+
