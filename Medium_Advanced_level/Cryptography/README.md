@@ -31,3 +31,17 @@ Must be added to your project as an **external archive**
 javac *.java
 java EncryptionDecryption
 ```
+
+## DEMO
+```
+Cryptography with (A-)Symmetric algorithms
+
+(Algorithm's name) Key: ...
+File encrypted successfully!
+File decrypted successfully!
+
+              .
+              .
+              .
+
+```
