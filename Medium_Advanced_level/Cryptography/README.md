@@ -32,7 +32,7 @@ javac *.java
 java EncryptionDecryption
 ```
 
-## DEMO
+## Demo
 ```
 Cryptography with (A-)Symmetric algorithms
 
