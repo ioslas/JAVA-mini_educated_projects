@@ -43,5 +43,4 @@ File decrypted successfully!
               .
               .
               .
-
 ```
