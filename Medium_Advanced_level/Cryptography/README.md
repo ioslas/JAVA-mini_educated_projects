@@ -44,3 +44,6 @@ File decrypted successfully!
               .
               .
 ```
+
+## Note
+*The printing outcome is showing more the proccess of the code, the results are in the files*
