@@ -11,7 +11,7 @@ This modules demonstrates basic implemantations and functions of a **Binary Sear
 - **Order Traversal(Printing)** node
 
 ## Features
-- Node creation and link connection using recursive methods crucial for trees
+- Node creation and link connection using recursive methods is crucial for trees
 - The types of order-traversal are:
   1. **In-order** (most common)
   2. **Pre-order**
