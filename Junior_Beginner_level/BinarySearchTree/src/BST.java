@@ -1,5 +1,6 @@
 public class BST {
 	Node root;
+	// Constructor
 	BST() {
 		root=null;
 	}
