@@ -48,7 +48,7 @@ java BSToperations
     ```
     Do you want to continue(y/n)? y
   
-    Delete from tree the number:
+    Delete from tree the number: ...
     ```
   \- no
     ```
