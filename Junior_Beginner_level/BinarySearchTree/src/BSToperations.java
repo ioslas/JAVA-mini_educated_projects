@@ -36,7 +36,7 @@ public class BSToperations {
 				System.out.println();
 			}
 			
-			System.out.print("Do you want to continue(y/n)? ");
+			System.out.print("\nDo you want to continue(y/n)? ");
 			do {
 				ans=scan.next().charAt(0);
 				if(ans!='y' && ans!='n')
