@@ -1,6 +1,6 @@
 # JAVA Graphs Shortest Path
 ![Java](https://img.shields.io/badge/Language-Java-blue)
-![Version](https://img.shields.io/badge/Version-1.1.2-301934)
+![Version](https://img.shields.io/badge/Version-1.1.2-673A3F)
 ![Status](https://img.shields.io/badge/Status-Completed-brightgreen)
 
 ## Module
