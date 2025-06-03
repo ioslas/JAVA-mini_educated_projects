@@ -34,7 +34,8 @@ java BSToperations
 ```
 
 ## Demo/Example Usage
-- Tree Creation (Node Insertion)<br>
+- Tree Creation (Node Insertion)
+  \# In-order traversal<br>
 ![Στιγμιότυπο οθόνης 2025-06-03 215525](https://github.com/user-attachments/assets/b610cf29-2ae8-4895-a6be-93a49c0cc81e)
 
 - Node(key) Search&Deletion <br>
