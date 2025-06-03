@@ -35,7 +35,8 @@ java BSToperations
 
 ## Demo/Example Usage
 - Tree Creation (Node Insertion)<br>
-![Στιγμιότυπο οθόνης 2025-06-03 215525](https://github.com/user-attachments/assets/92be2d54-c0e5-4595-a994-a39f9289d0bd)
+![Στιγμιότυπο οθόνης 2025-06-03 215525](https://github.com/user-attachments/assets/b610cf29-2ae8-4895-a6be-93a49c0cc81e)
+
 - Node(key) Search&Deletion <br>
   \* If key exists
     ![Στιγμιότυπο οθόνης 2025-06-03 220524](https://github.com/user-attachments/assets/a6bf6d5b-c23d-436b-9b0c-25f2581b94af)
