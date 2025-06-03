@@ -1,6 +1,6 @@
 # JAVA Binary Search Tree (BST)
 ![Java](https://img.shields.io/badge/Language-Java-blue)
-![Version](https://img.shields.io/badge/Version-1.0-orange)
+![Version](https://img.shields.io/badge/Version-1.0-#2196f3)
 ![Status](https://img.shields.io/badge/Status-Completed-brightgreen)
 
 ## Module
