@@ -54,7 +54,7 @@ java BSToperations
     ```
     Do you want to continue(y/n)? n
     ```
-    *After that, the down below is follows*
+    *After that, the down below follows*
 
     Note: The y/n are case-insensitive
   
