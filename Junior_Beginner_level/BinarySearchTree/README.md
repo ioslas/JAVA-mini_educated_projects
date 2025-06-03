@@ -19,7 +19,7 @@ This modules demonstrates basic implemantations and functions of a **Binary Sear
 - ALL operations are *recursive* methods because the **recursion** works as tree's **traversal** through the links
 
 ## Technologies Used
-- ```import java.util.*;```
+- `import java.util.*;`
   - **Scanner**: keyboard input
   - **Random**: random (number) genarator -> size of tree
 - `Node.java`: class with only constructor which defines the **basic structure** of a tree node (**key (vertice), 2 links(left and right)**). Usefull for node creation and link connection for recursive methods
