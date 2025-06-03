@@ -43,4 +43,22 @@ java BSToperations
    
   \* If key doesn't exist <br>
   ![Στιγμιότυπο οθόνης 2025-06-03 220524](https://github.com/user-attachments/assets/a6bf6d5b-c23d-436b-9b0c-25f2581b94af)
-- 
+- User Interaction(Decision)
+  \- yes
+    ```
+    Do you want to continue(y/n)? y
+  
+    Delete from tree the number:
+    ```
+  \- no
+    ```
+    Do you want to continue(y/n)? n
+    ```
+    *After that, the down below is follows*
+
+    Note: The y/n are case-insensitive
+  
+- Tree Order-Traversal (The in-order is already printed, so we are going to see the other traversal (*pre & post*) in the **final** tree)
+![Στιγμιότυπο οθόνης 2025-06-03 221952](https://github.com/user-attachments/assets/d12283d0-23ee-4755-8abc-7fa17de850ed)
+
+      
