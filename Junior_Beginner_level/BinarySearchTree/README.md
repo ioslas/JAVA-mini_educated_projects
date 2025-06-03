@@ -38,8 +38,9 @@ java BSToperations
 ![Στιγμιότυπο οθόνης 2025-06-03 215525](https://github.com/user-attachments/assets/b610cf29-2ae8-4895-a6be-93a49c0cc81e)
 
 - Node(key) Search&Deletion <br>
-  \* If key exists
-    ![Στιγμιότυπο οθόνης 2025-06-03 220524](https://github.com/user-attachments/assets/a6bf6d5b-c23d-436b-9b0c-25f2581b94af)
+  \* If key exists <br>
+  ![Στιγμιότυπο οθόνης 2025-06-03 221116](https://github.com/user-attachments/assets/63765c41-455c-4bb9-9399-47d813864920)
+   
   \* If key doesn't exist <br>
-  
+  ![Στιγμιότυπο οθόνης 2025-06-03 220524](https://github.com/user-attachments/assets/a6bf6d5b-c23d-436b-9b0c-25f2581b94af)
 - 
