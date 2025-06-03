@@ -10,7 +10,8 @@ This modules demonstrates basic implemantations and functions of a **Binary Sear
 - **Delete** node
 - **Order Traversal(Printing)** node
 
-## Features 
+## Features
+- Node creation and link connection using recursive methods crucial for trees
 - The types of order-traversal are:
   1. **In-order** (most common)
   2. **Pre-order**
@@ -22,5 +23,21 @@ This modules demonstrates basic implemantations and functions of a **Binary Sear
 - `import java.util.*;`
   - **Scanner**: keyboard input
   - **Random**: random (number) genarator -> size of tree
-- `Node.java`: class with only constructor which defines the **basic structure** of a tree node (**key (vertice), 2 links(left and right)**). Usefull for node creation and link connection for recursive methods
+- `Node.java`: Class with constructor only which defines the **basic structure** of a tree node (**key (vertice), 2 links(left and right)**).
 
+ ## How to run
+1. Clone the repository or download the files.
+2. Compile and run Java Files (if you run it on cmd):
+```
+javac *.java
+java BSToperations
+```
+
+## Demo/Example Usage
+- Tree Creation (Node Insertion)
+![Στιγμιότυπο οθόνης 2025-06-03 215525](https://github.com/user-attachments/assets/caf17319-8673-42b4-9c67-4604d8a2347d)
+- Node(key) Search&Deletion 
+  * If key exists
+    
+  * 
+- 
