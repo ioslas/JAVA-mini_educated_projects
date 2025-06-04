@@ -57,6 +57,13 @@ java BSToperations
     ```
     Do you want to continue(y/n)? n
     ```
+  \- *Message*
+    ```
+    Do you want to continue(y/n)? (not y or n)
+
+    Wrong answer.Try again(y/n)? ...
+    ```
+
     *After that, the following(down-below) output is displayed*
 
     Note: The y/n are case-insensitive
