@@ -65,7 +65,7 @@ java BSToperations
     Wrong answer.Try again(y/n)? ...
     ```
 
-    *After that, the following(down-below) output is displayed*
+    *After that (answer=no), the following(down-below) output is displayed*
 
     Note: The y/n are case-insensitive
   
