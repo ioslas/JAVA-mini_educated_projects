@@ -4,7 +4,7 @@
 ![Status](https://img.shields.io/badge/Status-Completed-brightgreen)
 
 ## Module
-This modules demonstrates basic implemantations and functions of a **Binary Search Tree (BST)**. A BST is a specialized form of a **binary tree** which itself is a (common-used) subcategory of the broader **Tree** data structure family.
+This modules demonstrates basic implemantations and functions of a **Binary Search Tree (BST)**. A BST is a specialized form of a **binary tree** which itself is a (common-used) subcategory of the broader **Tree** data structure family.<br>
 The module includes basic operations such as:
 - **Insertion** of nodes
 - **Search**
