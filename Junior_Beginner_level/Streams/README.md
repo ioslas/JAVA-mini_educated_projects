@@ -11,8 +11,9 @@ This module impliments simple *basic tasks of programming* using a very special 
 - The *main original lists* are:
   1. **Nlist**: list with numbers
   2. **Slist**: list with Strings
+     ![image](https://github.com/user-attachments/assets/ddf1e47d-b7e5-4d56-b85d-474c9aaf2796)
  ![Στιγμιότυπο οθόνης 2025-06-06 203706](https://github.com/user-attachments/assets/34998182-8335-4918-8413-9c08de7ea5cc)
 
   3. 
-- ![image](https://github.com/user-attachments/assets/ddf1e47d-b7e5-4d56-b85d-474c9aaf2796)
+- 
 
