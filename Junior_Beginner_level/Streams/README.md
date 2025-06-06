@@ -7,12 +7,9 @@
 This module impliments simple *basic tasks of programming* using a very special tool of **Java 8** language: **Streams**
 
 ## Features
-- We use many **Lists** in order to show the differences or the modifications happem to the list.
+- We use many **Lists** in order to show the differences or the modifications happen to the list and also they are more helpful for the streams.
 - The *main original lists* are:  
-  1. **Nlist**: list with numbers ⎫<br>
-    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;⎬ grouped as List types     
-  2. **Slist**: list with Strings ⎭
-
+![Ανώνυμο διάγραμμα drawio](https://github.com/user-attachments/assets/58f736e4-ff94-4cf4-9701-9c2cea385bfa)<br>
   3. 
 - 
 
