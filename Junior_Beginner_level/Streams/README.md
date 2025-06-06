@@ -9,7 +9,7 @@ This module impliments simple *basic tasks of programming* using a very special 
 ## Features
 - We use many **Lists** in order to show the differences or the modifications happem to the list.
 - The *main original lists* are:  
-  1. **Nlist**: list with numbers ⎫
+  1. **Nlist**: list with numbers ⎫<br>
                                   ⎬ grouped as List types     
   2. **Slist**: list with Strings ⎭
 
