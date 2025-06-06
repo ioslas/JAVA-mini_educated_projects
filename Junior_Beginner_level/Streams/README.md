@@ -9,7 +9,7 @@ This module impliments simple *basic tasks of programming* using a very special 
 ## Features
 - We use many **Lists** in order to show the differences or the modifications happen to the list and also they are more helpful for the streams.
 - The *main original lists* are:  
-![Ανώνυμο διάγραμμα drawio](https://github.com/user-attachments/assets/58f736e4-ff94-4cf4-9701-9c2cea385bfa)<br>
+![Ανώνυμο διάγραμμα](https://github.com/user-attachments/assets/c2b0e2cc-40b0-4b69-90ec-f2778ce4d5ab)<br>
   3. 
 - 
 
