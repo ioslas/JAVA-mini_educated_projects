@@ -8,7 +8,7 @@ This module impliments simple *basic tasks of programming* using a very special 
 
 ## Features
 - We use many **Lists** in order to show the differences or the modifications happen to the "ORIGINAL" list and also they are mvery helpful for the streams.
-- The *main original lists* are: 
+- The *main original lists* are:<br>
 ![Ανώνυμο διάγραμμα](https://github.com/user-attachments/assets/c2b0e2cc-40b0-4b69-90ec-f2778ce4d5ab)<br>
   3. **lines** -> for a specific treatment
 - Each task is to show how the **streams** are benefecial about writing code and reducing code complexity
