@@ -91,4 +91,4 @@ one two three four
 Groupped List Map
 {A=[Any], a=[apple], b=[bacon], r=[river], B=[Banana], s=[sea, school], c=[chair], M=[Mountain]}
 ```
- 
+*Note: All of this is the following order of the program execution* 
