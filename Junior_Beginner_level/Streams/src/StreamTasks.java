@@ -5,7 +5,7 @@ public class StreamTasks {
 	// private static final String Characters="ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz";
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		List<Integer> list=new ArrayList<Integer>();
+		List<Integer> Nlist=new ArrayList<Integer>();
 		//Create List
 		int size;
 		do {
@@ -13,15 +13,15 @@ public class StreamTasks {
 		} while(size==0);
 		// List with numbers
 		for(int i=0;i<size;i++)
-			list.add(new Random().nextInt(50));
+			Nlist.add(new Random().nextInt(50));
 		//Print List
 		System.out.println("Original Array");
 		for(int i=0;i<size;i++)
-			System.out.print(list.get(i) +" ");
+			System.out.print(Nlist.get(i) +" ");
 		System.out.println();
 		
 		// Find the average number of the elements of List
-		double average =list.stream()
+		double average =Nlist.stream()
 				.mapToInt(i -> i) // for each element to int
 				.average() // find average
 				.getAsDouble(); // cast to double		
@@ -30,7 +30,7 @@ public class StreamTasks {
 		System.out.println(average +" ");
 		
 		// Sort List
-		List<Integer> sorted = list.stream().sorted()
+		List<Integer> sorted = Nlist.stream().sorted()
 				.collect(Collectors.toList());
 		//Print List
 		System.out.println("\nSorted Array");
@@ -39,21 +39,27 @@ public class StreamTasks {
 		
 		System.out.println("\n");
 		// Reducing list (all elements into 1 (e.g. sum of elements)
-		System.out.println("Sum of list: "+ list.stream().reduce(0,Integer::sum));
+		System.out.println("Sum of list: "+ Nlist.stream().reduce(0,Integer::sum));
 		
 		//Counting List
-		System.out.println("\nCount of even numbers in List are: "+ list.stream()
+		System.out.println("\nCount of even numbers in List are: "+ Nlist.stream()
 														.filter(i-> i%2==0)
 														.count());
 		System.out.println();
 		
 		// Finding elements
-		System.out.println("The first even number in List are: "+ list.stream()
-															.filter(i-> i%2==0)
-															.findFirst());
-		System.out.println("The found even number in List are: "+ list.stream()
-															.filter(i-> i%2==0)
-															.findAny());
+		Optional<Integer> first = Nlist.stream()
+							.filter(i-> i%2==0)
+							.findFirst();
+		
+		Optional<Integer> any = Nlist.stream()
+							.filter(i-> i%2==0)
+							.findFirst();
+		
+		// Print optional numbers -> numbers 
+		// ensuring that these numbers exist (there are even numbers in the list)
+		first.ifPresent(n -> System.out.println("The first even number in List is: "+ n));
+		any.ifPresent(n -> System.out.println("The found even number in List are: "+ n));
 		
 		//Create List
 		// List with Strings
@@ -108,7 +114,7 @@ public class StreamTasks {
 		
 		// Find Numbers and convert them into Strings with specific way
 		System.out.println("\nStringed Number");
-		String IntS=getString(list);
+		String IntS=getString(Nlist);
 		System.out.println(IntS);
 		
 		//Flat Map
