@@ -14,4 +14,15 @@ This module impliments simple *basic tasks of programming* using a very special 
 - Each task is to show how the **streams** are benefecial about writing code and reducing code complexity
 
 ## Technologies used
+```
+import java.util.*; -> Creating LISTS & Sets (basically data structures)
+import java.util.stream.*; -> IMPORTANT for calling .stream() method and everything it follws then (e.g. .stream().filter()...)
+```
 
+## How to run
+1. Clone the repository or download the files.
+2. Compile and run Java Files (if you run it on cmd):
+```
+javac StreamTasks.java
+java StreamTasks
+```
