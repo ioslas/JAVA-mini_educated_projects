@@ -26,3 +26,24 @@ import java.util.stream.*; -> IMPORTANT for calling .stream() method and everyth
 javac StreamTasks.java
 java StreamTasks
 ```
+
+## Demo/Example Usage
+```
+Original Array
+17 46 45 14 1 42 31 44 
+
+Average Array
+30.0 
+
+Sorted Array
+1 14 17 31 42 44 45 46 
+
+Sum of list: 240
+
+Count of even numbers in List are: 4
+
+The first even number in List are: Optional[46]
+The found even number in List are: Optional[46]
+
+```
+
