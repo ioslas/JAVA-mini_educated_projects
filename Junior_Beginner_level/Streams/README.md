@@ -4,7 +4,7 @@
 ![Status](https://img.shields.io/badge/Status-Completed-brightgreen)
 
 # Module
-This module implements a set of *simple, focused programming tasks* using a very special feture of **Java 8** language: **Streams API**
+This module implements a set of *simple, focused programming tasks* using a very special feature of **Java 8** language: **Streams API**
 
 Streams allow for:
 - More readable and functional-style code
