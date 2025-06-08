@@ -5,7 +5,7 @@
 - Some methods and variables from the earlier version were left in comments to preserve the original instructional purpose (e.g., how to create a list with random strings containing only letters).
 
 ## [2.1] - 05-06-2025
-- We added Optional<Type> variables in order to clarify value output and avoid displaying the type-wrapped format:<br>
+- Introducing `Optional<Type>` data type in order to clarify value output and avoid displaying the type-wrapped format:<br>
   \- With Optional:
   ```
   The first even number in List is: 16
