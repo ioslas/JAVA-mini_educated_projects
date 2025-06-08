@@ -15,7 +15,7 @@ Each task is to show how the **streams** can make your code cleaner, shorter, an
 ## Features
 - Multiple `List` collections are used to compare original vs transformed data.
 - The *main original lists* are:<br>
-![Ανώνυμο διάγραμμα](https://github.com/user-attachments/assets/c2b0e2cc-40b0-4b69-90ec-f2778ce4d5ab)<br>
+![Ανώνυμο διάγραμμα](https://github.com/user-attachments/assets/93d00d10-6a96-4106-a54c-e6d3058abb23)<br>
   3. **lines** -> for a specific treatment 
 - Tasks demonstrate core stream operations such as:
   - `map()`, `filter()`, `sorted()` etc.
