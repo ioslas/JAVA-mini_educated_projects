@@ -96,6 +96,6 @@ Give target vertices: 2
 *Unfortunately, we can't afford this, otherwise we will have syntax or logical errors.*
 
 ## Changelog
-- **1.1.0**: Added Johnson Algorithm implementation in two classes: `WeightDirectGraph, WeightUndirectGraph`.
-- **1.1.1**: Added a variable `flag` to avoid printing_path when calling Bellman or Dijkstra from Johnson algorithm.
-- **1.1.2**: Added method `setFlag` to give `flag` the suitable value (0,1) in the suitable situation in order to achieve the above behavior.  
+- **[1.1.0]**: Added Johnson Algorithm implementation in two classes: `WeightDirectGraph, WeightUndirectGraph`.
+- **[1.1.1]**: Added a variable `flag` to avoid printing_path when calling Bellman or Dijkstra from Johnson algorithm.
+- **[1.1.2]**: Added method `setFlag` to give `flag` the suitable value (0,1) in the suitable situation in order to achieve the above behavior.  
