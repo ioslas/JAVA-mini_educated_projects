@@ -5,7 +5,7 @@
 - Some methods and variables from the earlier version were left in comments to preserve the original instructional purpose (e.g., how to create a list with random strings containing only letters).
 
 ## [2.1] - 05-06-2025
-- We added Optional<Type> variables in order to show the clear value of the list and not the type value:<br>
+- We added Optional<Type> variables in order to clarify value output and avoid displaying the type-wrapped format:<br>
   For example:<br>
   \- With Optional:
   ```
