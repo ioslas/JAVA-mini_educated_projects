@@ -4,7 +4,7 @@
 - Some of methods or variables of the previous version are added in comments in order to remain the previous purpose of the algorithm (e.g. How to create a list with random Strings who contains only letter characters) 
 
 ## [2.1] - 05-06-2025
-- We added Optional<Type> variables in order to show the clear value of the list and not the type value:
+- We added Optional<Type> variables in order to show the clear value of the list and not the type value:<br>
 For example:
 ```
 With the variable: The first even number in List is: 16
