@@ -1,12 +1,17 @@
 # Changelog
 ## [2.0] - 04-06-2025
-- The initial version of this code was to show some basics implimentations of the streams (printing, filtering, mapping, etc.) but I decided to add more tasks in order to make the algorithm more interesting and more high level difficulty
-- Some of methods or variables of the previous version are added in comments in order to remain the previous purpose of the algorithm (e.g. How to create a list with random Strings who contains only letter characters) 
+- The initial version was intended to demonstrate basic Stream API usage (e.g., printing, filtering, mapping).
+- Additional tasks were added to increase complexity and enhance educational value.
+- Some methods and variables from the earlier version were left in comments to preserve the original instructional purpose (e.g., how to create a list with random strings containing only letters).
 
 ## [2.1] - 05-06-2025
 - We added Optional<Type> variables in order to show the clear value of the list and not the type value:<br>
 For example:
+\- With Optional:
 ```
-With the variable: The first even number in List is: 16
-Without the variable: The first even number in List is: Optional[16]
+ The first even number in List is: 16
 ``` 
+\- Without Optional: 
+```
+The first even number in List is: Optional[16]
+```
