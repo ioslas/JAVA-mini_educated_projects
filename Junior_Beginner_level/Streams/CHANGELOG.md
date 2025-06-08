@@ -6,12 +6,12 @@
 
 ## [2.1] - 05-06-2025
 - We added Optional<Type> variables in order to show the clear value of the list and not the type value:<br>
-For example:<br>
-\- With Optional:
-```
- The first even number in List is: 16
-``` 
-\- Without Optional: 
-```
-The first even number in List is: Optional[16]
-```
+  For example:<br>
+  \- With Optional:
+  ```
+  The first even number in List is: 16
+  ``` 
+  \- Without Optional: 
+  ```
+  The first even number in List is: Optional[16]
+  ```
