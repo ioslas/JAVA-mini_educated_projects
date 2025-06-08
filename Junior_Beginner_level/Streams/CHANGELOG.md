@@ -1,4 +1,9 @@
 # Changelog
+## [1.0] - 15-03-2025
+- Initial release with basic stream examples.
+- Demonstrated simple operations: print, filter, map.
+- Added method from converting `int` -> `String` under specific occasions to showcase the dynamic behavior of streams
+  
 ## [2.0] - 04-06-2025
 - The initial version was intended to demonstrate basic Stream API usage (e.g., printing, filtering, mapping).
 - Additional tasks were added to increase complexity and enhance educational value.
