@@ -10,7 +10,7 @@ Streams allow for:
 - More readable and functional-style code
 - Clear data transformations
 
-Each task is to show how the **streams** can make your code cleaner, shorter, and reducing its complexity
+Each task is to show how the **streams** can make your **code cleaner, shorter, and reducing its complexity**
 
 ## Features
 - Multiple `List` collections are used to compare original vs transformed data.
