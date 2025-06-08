@@ -4,19 +4,26 @@
 ![Status](https://img.shields.io/badge/Status-Completed-brightgreen)
 
 # Module
-This module impliments simple *basic tasks of programming* using a very special tool of **Java 8** language: **Streams**
+This module implements a set of *simple, focused programming tasks* using a very special feture of **Java 8** language: **Streams API**
+
+Streams allow for:
+- More readable and functional-style code
+- Clear data transformations
+
+Each task is to show how the **streams** can make your code cleaner, shorter, and reducing its complexity
 
 ## Features
-- We use many **Lists** in order to show the differences or the modifications happen to the "ORIGINAL" list and also they are mvery helpful for the streams.
+- Multiple `List` collections are used to compare original vs transformed data.
 - The *main original lists* are:<br>
 ![Ανώνυμο διάγραμμα](https://github.com/user-attachments/assets/c2b0e2cc-40b0-4b69-90ec-f2778ce4d5ab)<br>
-  3. **lines** -> for a specific treatment
-- Each task is to show how the **streams** are benefecial about writing code and reducing code complexity
+  3. **lines** -> for a specific treatment 
+- Tasks demonstrate core stream operations such as:
+  - `map()`, `filter()`, `sorted()` etc.
 
 ## Technologies used
 ```
 import java.util.*; -> Creating LISTS & Sets (basically data structures)
-import java.util.stream.*; -> IMPORTANT for calling .stream() method and everything it follws then (e.g. .stream().filter()...)
+import java.util.stream.*; -> IMPORTANT for calling .stream() method and everything that follows (e.g. .stream().filter()...)
 ```
 
 ## How to run
