@@ -1,6 +1,6 @@
 # JAVA Streams
 ![Java](https://img.shields.io/badge/Language-Java-blue)
-![Version](https://img.shields.io/badge/Version-2.1-b71c1c)
+![Version](https://img.shields.io/badge/Version-2.1-b71c1c?style=flat)
 ![Status](https://img.shields.io/badge/Status-Completed-brightgreen)
 
 # Module
