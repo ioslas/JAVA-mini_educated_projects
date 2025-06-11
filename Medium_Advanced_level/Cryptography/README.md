@@ -27,7 +27,8 @@ Must be added to your project as an **external archive**
 1. Clone the repository or download the files.
 2. Add the `bcprov-jdk18on-1.79.jar` to your project's libraries.
 3. Compile and run Java Files (if you run it on cmd):
-```bash 
+```bash
+cd (Project_File_location)/src
 javac *.java
 java EncryptionDecryption
 ```
