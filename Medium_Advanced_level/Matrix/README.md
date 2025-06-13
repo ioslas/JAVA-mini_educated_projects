@@ -25,7 +25,7 @@ Reason: There are methods which general matrices can't do from square matrices
 \- `import java.util.*;` 
   - `Random`: generate random number of rows, columns, data
   - `Scanner`: input from keyboard
-  - A `LinkedList` data structure: important for finding Triangular Matrix <br>
+  - A `LinkedList` data structure: important for finding Triangular Matrix 
 
 \- **Tables** (which often resembles the matrix): *1d, 2d*
 
