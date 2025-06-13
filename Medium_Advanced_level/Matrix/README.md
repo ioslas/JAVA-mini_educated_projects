@@ -8,7 +8,7 @@ This module supports and impliments **basic principles and operations** of one o
 1. **General (non-square) Matrix**
 2. **Square Matrix**
 
-Reason: There are methods which general matrixces can't do from square matrices
+Reason: There are methods which general matrices can't do from square matrices
 
 ## Features
 - The number of **rows, columns** and the **data** are given *randomly*
