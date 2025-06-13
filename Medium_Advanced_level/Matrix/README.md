@@ -18,12 +18,13 @@ Reason: There are methods which general matrices can't do from square matrices
   ii) 
 - There are **2 constructors** of the matrix:
   1. When we know its rows and columns
-  2. When we know its data 
+  2. When we know its data
+- In some comments there are simple, custom matrices (if we want to check if the codes follows matrices' algorithm right) in order to make the results more easy understanding   
 
 ## Technologies Used
 `import java.util.*;` 
 - `Random`: generate random number of rows, columns, data
 - `Scanner`: input from keyboard
 - A `LinkedList` data structure: important for finding Triangular Matrix
-- **Tables**(which often resembles the matrix): 1d,2d
+- **Tables**(which often resembles the matrix): 1d, 2d
 
