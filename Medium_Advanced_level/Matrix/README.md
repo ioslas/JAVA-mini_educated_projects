@@ -17,8 +17,8 @@ Reason: There are methods which general matrices can't do from square matrices
   i) `Matrix.java` class which is the core of this project (There we do all the operations and tasks of matrix)
   ii) 
 - There are **2 constructors** of the matrix:
-  1. When we know its rows and columns
-  2. When we know its data
+  1. When we know its *rows and columns*
+  2. When we know its *data*
 - In some comments there are simple, custom matrices (if we want to check if the codes follows matrices' algorithm right) in order to make the results more easy understanding   
 
 ## Technologies Used
