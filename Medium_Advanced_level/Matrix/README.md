@@ -4,9 +4,10 @@
 ![Status](https://img.shields.io/badge/Status-In_Progress-yellow)
 
 ## Module
-This module supports and impliments **basic principles and operations** of one of the most *special* data structure (especially in **Linear Algebra**) called **Matrix**. This project is splitted into **folders** which contain *one-shot* files' codes. This split is based on the **type of Matrix**:
+This module supports and impliments **basic principles and operations** of one of the most *special* data structure (especially in **Linear Algebra**) called **Matrix**. This project is splitted into **3 folders** which contain *one-shot* files' codes. This split is based on the **type of Matrix**:
 1. **General (non-square) Matrix**
 2. **Square Matrix**
+3. **Main/src folder**
 
 Reason: There are methods which general matrices can't do from square matrices
 
@@ -17,5 +18,11 @@ Reason: There are methods which general matrices can't do from square matrices
   ii) 
 - There are **2 constructors** of the matrix:
   1. When we know its rows and columns
-  2. When we know its data
-- 
+  2. When we know its data 
+
+## Technologies Used
+`import java.util.*;` 
+- `Random`: generate random number of rows, columns, data
+- `Scanner`: input from keyboard
+- ALL the important data structures: LinkedList, HashMap, HashSet(for duplicates), Queue(PriorityQueue), etc.
+
