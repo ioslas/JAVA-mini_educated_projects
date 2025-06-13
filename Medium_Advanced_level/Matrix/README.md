@@ -11,6 +11,7 @@ This module supports and impliments **basic principles and operations** of one o
 
 Reason: There are methods which general matrices can't do from square matrices
 
+
 ## Features
 - The number of **rows, columns** and the **data** are given *randomly*
 - The **src** folder contains:
@@ -28,4 +29,8 @@ Reason: There are methods which general matrices can't do from square matrices
   - A `LinkedList` data structure: important for finding Triangular Matrix 
 
 \- **Tables** (which often resembles the matrix): *1d, 2d*
+
+## How to run
+
+## Demo/Example Usage
 
