@@ -14,8 +14,8 @@ Reason: There are methods which general matrices can't do from square matrices
 ## Features
 - The number of **rows, columns** and the **data** are given *randomly*
 - The **src** folder contains:
-  i) `Matrix.java` class which is the core of this project (There we do all the operations and tasks of matrix)
-  ii) 
+  1) `Matrix.java` class which is the core of this project (There we do all the operations and tasks of matrix)
+  2) 
 - There are **2 constructors** of the matrix:
   1. When we know its rows and columns
   2. When we know its data
