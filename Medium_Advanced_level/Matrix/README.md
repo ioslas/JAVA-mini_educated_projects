@@ -51,4 +51,61 @@ java StaticMatrices
 ```
 
 ## Demo/Example Usage
+- MatrixBasics
+```
+Original Matrix (5x6):
+50 17 92 67 45 50 
+68 16 96 74 77 29 
+69 70 76 61 66 89 
+62 62 48 20 61 89 
+32 96 29 29 13 50 
 
+Tranposed Matrix (6x5):
+50 68 69 62 32 
+17 16 70 62 96 
+92 96 76 48 29 
+67 74 61 20 29 
+45 77 66 61 13 
+50 29 89 89 50 
+
+Main diagonal sum of Matrix = 175
+Secondary diagonal sum of Matrix = 332
+
+Matrix's elements in spiral order:
+50 17 92 67 45 50 
+29 89 89 50 
+13 29 29 96 32 
+62 69 68 
+16 96 74 77 
+66 61 
+20 48 62 
+70 
+76 61 
+
+
+Sum of Matrix's elements each row: 
+321 360 431 342 249 
+
+Sum of Matrix's elements each column: 
+281 261 341 251 262 307 
+
+Minimum element of Matrix = 13
+Maximum element of Matrix = 96
+```
+- MatrixCalculations
+```
+Matrix 1 (5x4):
+8 40 75 44 
+56 14 2 51 
+72 18 96 10 
+19 23 25 42 
+71 36 7 85 
+
+Matrix 2 (5x4):
+64 84 86 51 
+21 22 46 34 
+98 15 85 47 
+94 34 32 54 
+48 30 53 54 
+```
+- 
