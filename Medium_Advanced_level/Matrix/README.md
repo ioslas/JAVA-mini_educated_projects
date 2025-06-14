@@ -93,24 +93,56 @@ Minimum element of Matrix = 13
 Maximum element of Matrix = 96
 ```
 - MatrixCalculations
-```
-Matrix 1 (5x4):
-8 40 75 44 
-56 14 2 51 
-72 18 96 10 
-19 23 25 42 
-71 36 7 85 
+  - Initial Matrices 
+  ```
+  Matrix 1 (5x4):
+  8 40 75 44 
+  56 14 2 51 
+  72 18 96 10 
+  19 23 25 42 
+  71 36 7 85 
+  
+  Matrix 2 (5x4):
+  64 84 86 51 
+  21 22 46 34 
+  98 15 85 47 
+  94 34 32 54 
+  48 30 53 54
+  
+  Give operation: ...
+  ```
+  - Calculation between Matrices
+    \- Addition
+    ```
+    Give operation: +
+  
+    New Matrix (4x5):
+    72 124 161 95 
+    77  36  48 85 
+    170 33 181 57 
+    113 57 57  96 
+    119 66 60 139 
+    ```
+    \- Subtraction
+    ```
+    Give operation: -
+  
+    New Matrix (4x5):
+    -56 -44 -11  -7 
+    35  -8  -44  17 
+    -26  3   11 -37 
+    -75 -11  -7 -12 
+     23  6  -46  31 
+    ```
+    \-  Multiplication
+    ```
+    Give operation: *
 
-Matrix 2 (5x4):
-64 84 86 51 
-21 22 46 34 
-98 15 85 47 
-94 34 32 54 
-48 30 53 54
-
-Give operation: ...
-```
-  \- Addition
-  \- 
-  \-  
-- 
+    New Matrix (4x5):
+    512  3360 6450 2244 
+    1176  308  92  1734 
+    7056  270 8160  470 
+    1786  782  800 2268 
+    3408 1080  371 4590
+    ```
+    \- 
