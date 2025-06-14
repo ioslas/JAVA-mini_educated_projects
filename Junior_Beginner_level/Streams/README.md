@@ -34,7 +34,7 @@ cd (Project_File_location)/src
 javac StreamTasks.java
 java StreamTasks
 ```
-**\# Alternatively**, if classes are pre-compiled
+**\# Alternatively**, class is pre-compiled
 ```bash
 cd (Project_File_location)/bin
 java StreamTasks
