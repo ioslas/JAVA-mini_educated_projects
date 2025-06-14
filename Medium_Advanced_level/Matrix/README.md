@@ -34,7 +34,7 @@ Reason: There are methods which general matrices can't do from square matrices
 
 ## How to run
 1. Clone the repository or download the files.
-2. Compile and run Java Files (if you run it on cmd):
+2. Compile and run Java Files (if you run it on cmd):<br>
 **\#** if classes are **pre-compiled**
 ```bash
 cd (Project_File_location)/bin
