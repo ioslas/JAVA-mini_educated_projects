@@ -4,12 +4,15 @@
 ![Status](https://img.shields.io/badge/Status-In_Progress-yellow)
 
 ## Module
-This module supports and impliments **basic principles and operations** of one of the most *special* data structure (especially in **Linear Algebra**) called **Matrix**. This project is splitted into **3 folders** which contain *one-shot* files' codes. This split is based on the **type of Matrix**:
-1. **General (non-square) Matrix**
-2. **Square Matrix**
+This module supports and implements **basic principles and operations** of one of the most *fundamental* data structure (especially in **Linear Algebra**) called **Matrix**. 
+
+This project is divided into **3 folders**, each containing self-contained (*one-shot*).<br> 
+This split is based on the **type of Matrix**:
+1. **General (non-square) Matrices**
+2. **Square Matrices**
 3. **Main/src folder**
 
-Reason: There are methods which general matrices can't do from square matrices
+***Note:*** Some operations are only valid for square matrices (e.g. determinant, inverse), and cannot be performed on general matrices — hence the separation.
 
 
 ## Features
