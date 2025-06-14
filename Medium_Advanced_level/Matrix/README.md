@@ -25,7 +25,7 @@ This split is based on the **type of Matrix**:
 - The Matrix class has **2 constructors**:
   1. When we know its *rows and columns*
   2. When we know its *data*
-- In some comments there are **simple, custom matrices* - to help visually verify that each method behaves correctly and follows matrix rules - making the output easier to understand   
+- In some comments there are **simple, custom matrices* — to help visually verify that each method behaves correctly and follows matrix rules — making the output easier to understand   
 
 ## Technologies Used
 \- `import java.util.*;` 
