@@ -32,9 +32,12 @@ This module supports the **basic principle and philosophy** of one of the most i
 1. Clone the repository or download the files.
 2. Compile and run Java Files (if you run it on cmd):
 ```bash
+# 1.
 cd (Project_File_location)/src
 javac *.java
 java GraphShortestPath
+
+# 2.
 ```
 
 ## Demo/Example Usage
