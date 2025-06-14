@@ -28,7 +28,7 @@ import java.util.stream.*; -> IMPORTANT for calling .stream() method and everyth
 
 ## How to run
 1. Clone the repository or download the files.
-2. Compile and run Java Files (if you run it on cmd):
+2. Compile and run Java File (if you run it on cmd):
 ```bash
 cd (Project_File_location)/src
 javac StreamTasks.java
