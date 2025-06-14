@@ -34,6 +34,11 @@ cd (Project_File_location)/src
 javac StreamTasks.java
 java StreamTasks
 ```
+**\# Alternatively**, if classes are pre-compiled
+```bash
+cd (Project_File_location)/bin
+java StreamTasks
+```
 
 ## Demo/Example Usage
 - Tasks with Integer List
