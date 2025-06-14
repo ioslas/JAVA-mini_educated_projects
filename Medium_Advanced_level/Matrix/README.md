@@ -33,6 +33,15 @@ Reason: There are methods which general matrices can't do from square matrices
 \- **Tables** (which often resembles the matrix): *1d, 2d*
 
 ## How to run
+## How to run
+1. Clone the repository or download the files.
+2. Compile and run Java Files (if you run it on cmd):
+**\#** if classes are **pre-compiled**
+```bash
+cd (Project_File_location)/bin
+dir
+java (ALL the .class files that are existed here except the Matrix.class) 
+```
 
 ## Demo/Example Usage
 
