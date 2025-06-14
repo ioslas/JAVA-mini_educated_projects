@@ -35,7 +35,7 @@ cd (Project_File_location)/src
 javac *.java
 java BSToperations
 ```
-**\# Alternatively**, if classes are pre-compiled
+**\# Alternatively**, classes are pre-compiled
 ```bash
 cd (Project_File_location)/src
 java BSToperations
