@@ -14,7 +14,6 @@ This split is based on the **type of Matrix**:
 
 ***Note:*** Some operations are only valid for square matrices (e.g. determinant, inverse), and cannot be performed on general matrices — hence the separation.
 
-
 ## Features
 - The number of **rows, columns** and the **data** are generated *randomly*
 - The **src** folder contains:<br>
@@ -23,8 +22,8 @@ This split is based on the **type of Matrix**:
 
   Purpose: Comparing the **algorithms' complexity** between using the reusable *core class* and the *static (classes)* implementations. 
 - The Matrix class has **2 constructors**:
-  1. When we know its *rows and columns*
-  2. When we know its *data*
+  1. One with defined *rows and columns*
+  2. One with predefined *data*
 - In some comments there are **simple, custom matrices* — to help visually verify that each method behaves correctly and follows matrix rules — making the output easier to understand   
 
 ## Technologies Used
