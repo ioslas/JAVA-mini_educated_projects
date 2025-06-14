@@ -93,7 +93,6 @@ Minimum element of Matrix = 13
 Maximum element of Matrix = 96
 ```
 - MatrixCalculations
-  - 
 ```
 Matrix 1 (5x4):
 8 40 75 44 
