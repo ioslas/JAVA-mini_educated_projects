@@ -110,7 +110,7 @@ Matrix 2 (5x4):
 
 Give operation: ...
 ```
-  - Addition
-  - 
-  -  
+  \- Addition
+  \- 
+  \-  
 - 
