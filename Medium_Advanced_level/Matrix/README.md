@@ -16,16 +16,16 @@ This split is based on the **type of Matrix**:
 
 
 ## Features
-- The number of **rows, columns** and the **data** are given *randomly*
+- The number of **rows, columns** and the **data** are generated *randomly*
 - The **src** folder contains:<br>
-  i) `Matrix.java` class which is the core of this project (There we do all the operations and tasks of matrix) <br>
-  ii) *One-shot* **Static Matrices** codes which execute the methods of the above class without calling it.
+  i) `Matrix.java` **core class** of this project (There we do all the operations and tasks of matrix) <br>
+  ii) *One-shot* **Static Matrices** files — simple, self-contained programs that execute matrix operations without calling the core class.
 
-  Purpose: Compare the **complexity of the algorithms** when we use the *core class* and the *static classes*
-- There are **2 constructors** of the matrix:
+  Purpose: Comparing the **algorithms' complexity** between using the reusable *core class* and the *static (classes)* implementations. 
+- The Matrix class has **2 constructors**:
   1. When we know its *rows and columns*
   2. When we know its *data*
-- In some comments there are simple, custom matrices (if we want to check if the codes follows matrices' algorithm right) in order to make the results more easy understanding   
+- In some comments there are **simple, custom matrices* - to help visually verify that each method behaves correctly and follows matrix rules - making the output easier to understand   
 
 ## Technologies Used
 \- `import java.util.*;` 
