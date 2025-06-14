@@ -111,7 +111,7 @@ Maximum element of Matrix = 96
   
   Give operation: ...
   ```
-  - Calculation between Matrices
+  - Calculation between Matrices <br>
     \- Addition
     ```
     Give operation: +
