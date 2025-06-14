@@ -145,4 +145,4 @@ Maximum element of Matrix = 96
     1786  782  800 2268 
     3408 1080  371 4590
     ```
-    \- 
+    \- Division --> A/B = A*$x^{n}$
