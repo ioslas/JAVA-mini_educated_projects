@@ -145,4 +145,9 @@ Maximum element of Matrix = 96
     1786  782  800 2268 
     3408 1080  371 4590
     ```
-    \- Division --> A/B = A*$x^{n}$
+    \- Division --> A/B = A*B^(-1)
+      * 2nd matrix not invertible
+      ```
+      Give operation: /
+      2nd Matrix not Squared/Invertible -> No Division!
+      ```
