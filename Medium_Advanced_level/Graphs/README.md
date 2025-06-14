@@ -36,7 +36,7 @@ cd (Project_File_location)/src
 javac *.java
 java GraphShortestPath
 ```
-**\# Alternatively**, if classes are pre-compiled
+**\# Alternatively**, classes are pre-compiled
 ```bash
 cd (Project_File_location)/bin
 java GraphShortestPath
