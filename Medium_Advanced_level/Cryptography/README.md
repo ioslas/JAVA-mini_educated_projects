@@ -32,6 +32,11 @@ cd (Project_File_location)/src
 javac *.java
 java EncryptionDecryption
 ```
+**\# Alternatively**, if classes are precompiled
+```bash
+cd (Project_File_location)/src
+java EncryptionDecryption
+```
 
 ## Demo
 ```
