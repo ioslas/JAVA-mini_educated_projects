@@ -35,8 +35,9 @@ This module supports the **basic principle and philosophy** of one of the most i
 cd (Project_File_location)/src
 javac *.java
 java GraphShortestPath
-
-# Alternatively
+```
+**Alternatively**, if classes are precompiled
+```bash
 cd (Project_File_location)/bin
 java GraphShortestPath
 ```
