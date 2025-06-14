@@ -39,7 +39,13 @@ Reason: There are methods which general matrices can't do from square matrices
 ```bash
 cd (Project_File_location)/bin
 dir
-java (ALL the .class files that are existed here except the Matrix.class) 
+
+# Run each .class file separately, except for Matrix.class:
+java MatrixBasics
+java SquareMatrixOperations
+java StaticMatrices
+...
+# Do not run Matrix.class — it is a helper class without a main() method.
 ```
 
 ## Demo/Example Usage
