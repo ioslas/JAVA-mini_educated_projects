@@ -172,3 +172,11 @@ Maximum element of Matrix = 96
     Give operation (+,-,*,/): (Anything that doesn't equal: +, -, *, /) 
     Null Operation. Try again (+,-,*,/)!
     ```
+    \- Ending Symbol
+    ```
+    Give operation (+,-,*,/): !
+    End of this operation.
+
+    What operation do you want to do with scalar (+,-,*,/): ...
+    ```
+    
