@@ -107,12 +107,12 @@ Maximum element of Matrix = 96
   26 60 61 28 88 
   18 80 26 57 93 
   
-  Give operation: ...
+  Give operation (+,-,*,/): ...
   ```
   - Calculation between Matrices <br>
     \- Addition
     ```
-    Give operation: +
+    Give operation (+,-,*,/): +
   
     New Matrix (5x4):
     112 172 98  94  125 
@@ -122,7 +122,7 @@ Maximum element of Matrix = 96
     ```
     \- Subtraction
     ```
-    Give operation: -
+    Give operation (+,-,*,/): -
   
     New Matrix (5x4):
     -14 -16 -42 62 41 
@@ -132,7 +132,7 @@ Maximum element of Matrix = 96
     ```
     \-  Multiplication
     ```
-    Give operation: *
+    Give operation (+,-,*,/): *
 
     New Matrix (5x4):
     3087 7332 1960 1248 3486 
@@ -143,7 +143,7 @@ Maximum element of Matrix = 96
     \- Division --> A/B = A*B^(-1)
       * 2nd matrix not invertible
       ```
-      Give operation: /
+      Give operation (+,-,*,/): /
       2nd Matrix not Squared/Invertible -> No Division!
       ```
       * 2nd matrix invertible  
@@ -159,7 +159,7 @@ Maximum element of Matrix = 96
       1 2 1 
       3 4 2 
       
-      Give operation: /
+      Give operation (+,-,*,/): /
 
       # Approximiately Result due to Math.round()
       New Matrix (3x3):
@@ -167,3 +167,8 @@ Maximum element of Matrix = 96
       0 -1  1 
       0  4 -2 
       ```
+    \- Error Message
+    ```
+    Give operation (+,-,*,/): (Anything that doesn't equal: +, -, *, /) 
+    Null Operation. Try again (+,-,*,/)!
+    ```
