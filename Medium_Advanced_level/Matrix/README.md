@@ -179,4 +179,4 @@ Maximum element of Matrix = 96
 
     What operation do you want to do with scalar (+,-,*,/): ...
     ```
-    
+  - Calculation between matrix and number  
