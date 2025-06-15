@@ -151,3 +151,25 @@ Maximum element of Matrix = 96
       Give operation: /
       2nd Matrix not Squared/Invertible -> No Division!
       ```
+      * 2nd matrix invertible
+      *Note*: We use this   
+      ```
+      # I use these simple matrices due to the complications this operation can have
+      Matrix 1 (3x3):
+      2 0 1 
+      1 3 2 
+      0 1 1 
+      
+      Matrix 2 (3x3):
+      2 0 1 
+      1 2 1 
+      3 4 2 
+      
+      Give operation: /
+
+      # Approximiately Result due to Math.round()
+      New Matrix (3x3):
+      0  0  1 
+      0 -1  1 
+      0  4 -2 
+      ```
