@@ -95,19 +95,17 @@ Maximum element of Matrix = 96
 - MatrixCalculations
   - Initial Matrices 
   ```
-  Matrix 1 (5x4):
-  8 40 75 44 
-  56 14 2 51 
-  72 18 96 10 
-  19 23 25 42 
-  71 36 7 85 
+  Matrix 1 (4x5):
+  49 78 28 78 83 
+  86 62 66 0 76 
+  56 60 81 53 94 
+  43 99 10 61 84 
   
-  Matrix 2 (5x4):
-  64 84 86 51 
-  21 22 46 34 
-  98 15 85 47 
-  94 34 32 54 
-  48 30 53 54
+  Matrix 2 (4x5):
+  63 94 70 16 42 
+  66 45 20 63 29 
+  26 60 61 28 88 
+  18 80 26 57 93 
   
   Give operation: ...
   ```
@@ -116,34 +114,31 @@ Maximum element of Matrix = 96
     ```
     Give operation: +
   
-    New Matrix (4x5):
-    72 124 161 95 
-    77  36  48 85 
-    170 33 181 57 
-    113 57 57  96 
-    119 66 60 139 
+    New Matrix (5x4):
+    112 172 98  94  125 
+    152 107 86  63  105 
+    82  120 142 81  182 
+    61  179 36  118 177
     ```
     \- Subtraction
     ```
     Give operation: -
   
-    New Matrix (4x5):
-    -56 -44 -11  -7 
-    35  -8  -44  17 
-    -26  3   11 -37 
-    -75 -11  -7 -12 
-     23  6  -46  31 
+    New Matrix (5x4):
+    -14 -16 -42 62 41 
+    20 17 46 -63 47 
+    30 0 20 25 6 
+    25 19 -16 4 -9
     ```
     \-  Multiplication
     ```
     Give operation: *
 
-    New Matrix (4x5):
-    512  3360 6450 2244 
-    1176  308  92  1734 
-    7056  270 8160  470 
-    1786  782  800 2268 
-    3408 1080  371 4590
+    New Matrix (5x4):
+    3087 7332 1960 1248 3486 
+    5676 2790 1320  0   2204 
+    1456 3600 4941 1484 8272 
+    774  7920  260 3477 7812 
     ```
     \- Division --> A/B = A*B^(-1)
       * 2nd matrix not invertible
@@ -151,8 +146,7 @@ Maximum element of Matrix = 96
       Give operation: /
       2nd Matrix not Squared/Invertible -> No Division!
       ```
-      * 2nd matrix invertible
-      *Note*: We use this   
+      * 2nd matrix invertible  
       ```
       # I use these simple matrices due to the complications this operation can have
       Matrix 1 (3x3):
