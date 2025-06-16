@@ -237,7 +237,6 @@ Maximum element of Matrix = 96
     \- Error Message
     ```
     What operation do you want to do with scalar (+,-,*,/): (Anything that doesn't equal: +, -, *, /)
-    Give scalar: 1
     Null Operation. Try again (+,-,*,/)!
     ```
     \- Ending Symbol
