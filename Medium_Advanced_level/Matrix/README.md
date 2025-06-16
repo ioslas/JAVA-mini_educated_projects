@@ -361,7 +361,7 @@ java StaticMatrices
   65 18 0  0 
   50 39 86 0 
   ```
-            \* For Symmetric matrix
+ &nbsp;&nbsp;&nbsp;&nbsp;   \* For Symmetric matrix
     ```
     Matrix (3x3):
     1 2 3
