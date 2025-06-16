@@ -258,7 +258,7 @@ Maximum element of Matrix = 96
   Give rotation degree (until 360): ...
   ```
   - Rotation (in degrees)<br>
-    * *0,360*
+    * *0, 360*
       ```
       Give rotation degree (until 360): (0 or 360)
       Matrix doesn't change/remains the same
