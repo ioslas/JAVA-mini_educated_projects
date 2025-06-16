@@ -392,7 +392,7 @@ java StaticMatrices
   .
   ```
   
-  - SquareMatrixOperations (Mostly like find the inverse of matrix, showing each step of solving that problem)
+  - **SquareMatrixOperations** (Mostly like find the *inverse* of matrix, showing each step of solving that problem)
   ```
   Matrix (3x3):
   43 13 5 
