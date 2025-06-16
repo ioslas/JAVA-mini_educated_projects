@@ -379,8 +379,8 @@ java StaticMatrices
   ```
   Matrix (3x3):
   1 0 0
-	0 1 0
-	0 0 1
+  0 1 0
+  0 0 1
 
   The matrix is symmetric
   
