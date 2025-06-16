@@ -259,12 +259,12 @@ java StaticMatrices
     Give rotation degree (until 360): ...
     ```
     - Rotation (in degrees)<br>
-      * *0, 360*
+      \* *0, 360*
         ```
         Give rotation degree (until 360): (0 or 360)
         Matrix doesn't change/remains the same
         ```
-      * *90*
+      \* *90*
         ```
         Give rotation degree (until 360): 90
   
@@ -275,7 +275,7 @@ java StaticMatrices
         15 39 43 55 90
         
         ```
-      * *180*
+      \* *180*
         ```
         Give rotation degree (until 360): 180
   
@@ -287,7 +287,7 @@ java StaticMatrices
         90  1 93 29  
   
         ```
-      * *270*
+      \* *270*
         ```
         Give rotation degree (until 360): 270
   
@@ -298,7 +298,7 @@ java StaticMatrices
         29 9 74 93 38 
   
         ```
-      * *Not valid (degree) value* message<br>
+      \* *Not valid (degree) value* message<br>
         \- Multiples of *90* ((value % 90)==0 (e.g. the above))
         ```
         Give rotation degree (until 360): 156
