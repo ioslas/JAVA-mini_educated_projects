@@ -361,12 +361,12 @@ java StaticMatrices
   65 18 0  0 
   50 39 86 0 
   ```
-  * For Symmetric Matrix
+  \* For Symmetric Matrix
   ```
   Matrix (3x3):
   1 2 3
-	2 4 5
-	3 5 6
+  2 4 5
+  3 5 6
 
   The matrix is not symmetric
   
@@ -375,7 +375,7 @@ java StaticMatrices
   .
   .
   ```
-  *  For Identity Matrix
+  \*  For Identity Matrix
   ```
   Matrix (3x3):
   1 0 0
