@@ -217,6 +217,7 @@ Maximum element of Matrix = 96
     \- Division (scalar -> denominator)
       * scalar=0 
       ```
+      # Dominator can't be 0
       What operation do you want to do with scalar (+,-,*,/): /
       Give scalar: 0
       Unapropriate Number. No operation done!
