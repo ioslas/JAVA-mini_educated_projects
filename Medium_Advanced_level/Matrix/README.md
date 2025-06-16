@@ -246,3 +246,56 @@ Maximum element of Matrix = 96
     End of operations.
     ```
 - **MatrixRotation**
+  - Initial Matrices 
+  ```
+  Original Matrix (5x4):
+  29 93  1 90 
+   9 53 56 55 
+  74 28 95 43 
+  93 93 43 39 
+  38  0 77 15 
+
+  Give rotation degree (until 360): ...
+  ```
+  - Rotation (in degrees)<br>
+    * *0,360*
+      ```
+      Give rotation degree (until 360): (0 or 360)
+      Matrix doesn't change/remains the same
+      ```
+    * *90*
+      ```
+      Give rotation degree (until 360): 90
+
+      Matrix (4x5) rotated in 90 degrees is: 
+      38 93 74  9 29 
+       0 93 28 53 93 
+      77 43 95 56  1 
+      15 39 43 55 90
+      
+      ```
+    * *180*
+      ```
+      Give rotation degree (until 360): 180
+
+      Matrix (5x4) rotated in 180 degrees is: 
+      15 77  0 38 
+      39 43 93 93 
+      43 95 28 74 
+      55 56 53  9 
+      90  1 93 29  
+
+      ```
+    * *270*
+      ```
+      Give rotation degree (until 360): 270
+
+      Matrix (4x5) rotated in 270 degrees is: 
+      90 55 43 39 15 
+      1 56 95 43 77 
+      93 53 28 93 0 
+      29 9 74 93 38 
+
+      ```
+    * 
+      
