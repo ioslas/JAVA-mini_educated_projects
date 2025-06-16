@@ -24,7 +24,8 @@ This split is based on the **type of Matrix**:
 - The Matrix class has **2 constructors**:
   1. One that initializes the *rows and columns*
   2. One that initializes the *data* of matrix using predefined data
-- In some comments there are **simple, custom matrices* — to help visually verify that each method behaves correctly and follows matrix rules — making the output easier to understand   
+  
+- In some comments there are **simple, custom matrices** — to help *visually* verify that each method behaves correctly and follows matrix rules — making the output *easier to understand*   
 
 ## Technologies Used
 \- `import java.util.*;` 
@@ -96,16 +97,16 @@ Maximum element of Matrix = 96
   - Initial Matrices 
   ```
   Matrix 1 (4x5):
-  49 78 28 78 83 
-  86 62 66 0 76 
-  56 60 81 53 94 
-  43 99 10 61 84 
+  0 57 72 96 3 
+  92 78 77 23 79 
+  13 92 21 22 85 
+  4 81 91 23 20 
   
   Matrix 2 (4x5):
-  63 94 70 16 42 
-  66 45 20 63 29 
-  26 60 61 28 88 
-  18 80 26 57 93 
+  1 51 94 12 63 
+  15 19 95 50 23 
+  9 51 74 35 28 
+  19 16 0 41 88
   
   Give operation (+,-,*,/): ...
   ```
@@ -114,7 +115,7 @@ Maximum element of Matrix = 96
     ```
     Give operation (+,-,*,/): +
   
-    New Matrix (5x4):
+    New Matrix (4x5):
     112 172 98  94  125 
     152 107 86  63  105 
     82  120 142 81  182 
@@ -124,21 +125,21 @@ Maximum element of Matrix = 96
     ```
     Give operation (+,-,*,/): -
   
-    New Matrix (5x4):
-    -14 -16 -42 62 41 
-    20 17 46 -63 47 
-    30 0 20 25 6 
-    25 19 -16 4 -9
+    New Matrix (4x5):
+    -1 6 -22 84 -60 
+    77 59 -18 -27 56 
+    4 41 -53 -13 57 
+    -15 65 91 -18 -68
     ```
     \-  Multiplication
     ```
     Give operation (+,-,*,/): *
 
-    New Matrix (5x4):
-    3087 7332 1960 1248 3486 
-    5676 2790 1320  0   2204 
-    1456 3600 4941 1484 8272 
-    774  7920  260 3477 7812 
+    New Matrix (4x5):
+     0   2907 6768 1152  189 
+    1380 1482 7315 1150 1817 
+    117  4692 1554 770  2380 
+    76   1296   0  943  1760
     ```
     \- Division --> A/B = A*B^(-1)
       * 2nd matrix not invertible
@@ -161,7 +162,7 @@ Maximum element of Matrix = 96
       
       Give operation (+,-,*,/): /
 
-      # Approximiately Result due to Math.round()
+      # Approximately Result due to Math.round()
       New Matrix (3x3):
       0  0  1 
       0 -1  1 
@@ -179,4 +180,58 @@ Maximum element of Matrix = 96
 
     What operation do you want to do with scalar (+,-,*,/): ...
     ```
-  - Calculation between matrix and number  
+  - Calculation between matrix and number
+    \- Addition
+    ```
+    What operation do you want to do with scalar (+,-,*,/): +
+    Give scalar: 8
+
+    New Matrix (4x5):
+    8 65 80 104 11 
+    100 86 85 31 87 
+    21 100 29 30 93 
+    12 89 99 31 28
+    ```
+     \- Subtraction
+    ```
+    What operation do you want to do with scalar (+,-,*,/): -
+    Give scalar: 3
+
+    New Matrix (4x5):
+    -3 54 69 93 0 
+    89 75 74 20 76 
+    10 89 18 19 82 
+    1 78 88 20 17 
+    ```
+    \- Multiplication
+    ```
+    What operation do you want to do with scalar (+,-,*,/): *
+    Give scalar: 2
+    
+    New Matrix (5x4):
+    0 114 144 192 6 
+    184 156 154 46 158 
+    26 184 42 44 170 
+    8 162 182 46 40
+    ```
+    \- Division
+    ```
+    What operation do you want to do with scalar (+,-,*,/): /
+    Give scalar: 5
+    
+    # Approximately Result due to Math.round()
+    New Matrix (4x5):
+    0 11 14 19 0 
+    18 15 15 4 15 
+    2 18 4 4 17 
+    0 16 18 4 4
+    ```
+    ```
+    What operation do you want to do with scalar (+,-,*,/): ]
+Give scalar: 1
+Null Operation. Try again (+,-,*,/)!
+
+What operation do you want to do with scalar (+,-,*,/): !
+
+End of operations.
+```
