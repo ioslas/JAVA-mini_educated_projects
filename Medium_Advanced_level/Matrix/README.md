@@ -421,9 +421,9 @@ java StaticMatrices
   det= 0.0
   
   Adjoint of matrix (3x3):
-  2  -4  2 
-  -4  8 -4 
-  2  -4  2 
+   2  -4  2 
+  -4   8 -4 
+   2  -4  2 
 
 
   Matrix is not invertible
