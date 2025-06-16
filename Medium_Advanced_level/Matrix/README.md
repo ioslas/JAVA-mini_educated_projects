@@ -203,7 +203,7 @@ Maximum element of Matrix = 96
     10 89 18 19 82 
     1 78 88 20 17 
     ```
-    \- Multiplication
+    \- Multiplication (Hadamard product)
     ```
     What operation do you want to do with scalar (+,-,*,/): *
     Give scalar: 2
