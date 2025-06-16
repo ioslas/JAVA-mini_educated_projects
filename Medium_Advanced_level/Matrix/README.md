@@ -336,5 +336,5 @@ java StaticMatrices
       Give rotation degree (until 360):
       ```
       Note: The y/n are **case-insensitive**
-  - **Square Matrix** folder
-    - 
+- **Square Matrix** folder
+  - 
