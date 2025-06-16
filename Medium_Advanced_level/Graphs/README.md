@@ -87,7 +87,7 @@ Give target vertices: 2
   ```
   \- *Message*
   ```
-  Do you want to continue(y/n)? (not y or n)
+  Do you want to continue(y/n)? (not y/Y or n/N)
   Invalid answer.Try again!
   Do you want to continue(y/n)? ...
   ```
