@@ -300,7 +300,7 @@ java StaticMatrices
         ```
       \* *Not valid (degree) value* message<br>
 
-          \- Multiples of *90* ((value % 90)==0 (e.g. the above))
+          - Multiples of *90* ((value % 90)==0 (e.g. the above))
           ```
           Give rotation degree (until 360): 156
           Invalid rotation degree.Try again!
@@ -308,7 +308,7 @@ java StaticMatrices
           Give rotation degree (until 360):
           ```
       
-          \- Bigger than 360
+          - Bigger than 360
           ```
           # 450= 360+90 --> Multiple of 90
           Give rotation degree (until 360): 450 
