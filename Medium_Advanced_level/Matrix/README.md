@@ -338,3 +338,55 @@ java StaticMatrices
       Note: The y/n are **case-insensitive**
 - **Square Matrix** folder
   - r
+  ```
+  Matrix (4x4):
+  94 16 23 94 
+  0 14 17 8 
+  65 18 59 9 
+  50 39 86 49 
+  
+  The matrix is not symmetric
+  
+  This matrix is not identity matrix
+  
+  Upper Triangular of matrix: 
+  0 16 23 94 
+  0 0  17 8 
+  0 0  0  9 
+  0 0  0  0 
+  
+  Lower Triangular of matrix: 
+  0  0  0  0 
+  0  0  0  0 
+  65 18 0  0 
+  50 39 86 0 
+  ```
+  * For Symmetric Matrix
+  ```
+  Matrix (3x3):
+  1 2 3
+	2 4 5
+	3 5 6
+
+  The matrix is not symmetric
+  
+  This matrix is not identity matrix
+  .
+  .
+  .
+  ```
+  *  For Identity Matrix
+  ```
+  Matrix (3x3):
+  1 0 0
+	0 1 0
+	0 0 1
+
+  The matrix is symmetric
+  
+  This matrix is not identity matrix
+  .
+  .
+  .
+  ```
+  - 
