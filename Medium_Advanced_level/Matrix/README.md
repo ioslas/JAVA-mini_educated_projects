@@ -375,7 +375,7 @@ java StaticMatrices
     .
     .
     ```
-                 \* For Identity matrix
+    \* For Identity matrix
     ```
     Matrix (3x3):
     1 0 0
