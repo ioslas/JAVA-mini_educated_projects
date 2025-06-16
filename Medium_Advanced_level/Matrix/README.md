@@ -93,245 +93,246 @@ Sum of Matrix's elements each column:
 Minimum element of Matrix = 13
 Maximum element of Matrix = 96
 ```
-- **MatrixCalculations**
-  - Initial Matrices 
-  ```
-  Matrix 1 (4x5):
-  0 57 72 96 3 
-  92 78 77 23 79 
-  13 92 21 22 85 
-  4 81 91 23 20 
-  
-  Matrix 2 (4x5):
-  1 51 94 12 63 
-  15 19 95 50 23 
-  9 51 74 35 28 
-  19 16 0 41 88
-  
-  Give operation (+,-,*,/): ...
-  ```
-  - Calculation between Matrices <br>
-    \- *Addition*
+- **General Matrix** folder
+  - **MatrixCalculations**
+    - Initial Matrices 
     ```
-    Give operation (+,-,*,/): +
-  
-    New Matrix (4x5):
-    112 172 98  94  125 
-    152 107 86  63  105 
-    82  120 142 81  182 
-    61  179 36  118 177
-    ```
-    \- *Subtraction*
-    ```
-    Give operation (+,-,*,/): -
-  
-    New Matrix (4x5):
-    -1 6 -22 84 -60 
-    77 59 -18 -27 56 
-    4 41 -53 -13 57 
-    -15 65 91 -18 -68
-    ```
-    \-  *Multiplication*
-    ```
-    Give operation (+,-,*,/): *
-
-    New Matrix (4x5):
-     0   2907 6768 1152  189 
-    1380 1482 7315 1150 1817 
-    117  4692 1554 770  2380 
-    76   1296   0  943  1760
-    ```
-    \- *Division* --> A/B = A*B^(-1)
-      * 2nd matrix not invertible
-      ```
-      Give operation (+,-,*,/): /
-      2nd Matrix not Squared/Invertible -> No Division!
-      ```
-      * 2nd matrix invertible  
-      ```
-      # I use these simple matrices due to the complications this operation can have
-      Matrix 1 (3x3):
-      2 0 1 
-      1 3 2 
-      0 1 1 
-      
-      Matrix 2 (3x3):
-      2 0 1 
-      1 2 1 
-      3 4 2 
-      
-      Give operation (+,-,*,/): /
-
-      # Approximately Result due to Math.round()
-      New Matrix (3x3):
-      0  0  1 
-      0 -1  1 
-      0  4 -2 
-      ```
-    \- *Error Message*
-    ```
-    Give operation (+,-,*,/): (Anything that doesn't equal: +, -, *, /) 
-    Null Operation. Try again (+,-,*,/)!
-    ```
-    \- Ending Symbol
-    ```
-    Give operation (+,-,*,/): !
-    End of this operation.
-
-    What operation do you want to do with scalar (+,-,*,/): ...
-    ```
-  - Calculation between matrix and number<br>
-    \- *Addition*
-    ```
-    What operation do you want to do with scalar (+,-,*,/): +
-    Give scalar: 8
-
-    New Matrix (4x5):
-    8 65 80 104 11 
-    100 86 85 31 87 
-    21 100 29 30 93 
-    12 89 99 31 28
-    ```
-     \- *Subtraction*
-    ```
-    What operation do you want to do with scalar (+,-,*,/): -
-    Give scalar: 3
-
-    New Matrix (4x5):
-    -3 54 69 93 0 
-    89 75 74 20 76 
-    10 89 18 19 82 
-    1 78 88 20 17 
-    ```
-    \- *Multiplication* (**Hadamard product**)
-    ```
-    What operation do you want to do with scalar (+,-,*,/): *
-    Give scalar: 2
+    Matrix 1 (4x5):
+    0 57 72 96 3 
+    92 78 77 23 79 
+    13 92 21 22 85 
+    4 81 91 23 20 
     
-    New Matrix (5x4):
-    0 114 144 192 6 
-    184 156 154 46 158 
-    26 184 42 44 170 
-    8 162 182 46 40
+    Matrix 2 (4x5):
+    1 51 94 12 63 
+    15 19 95 50 23 
+    9 51 74 35 28 
+    19 16 0 41 88
+    
+    Give operation (+,-,*,/): ...
     ```
-    \- *Division* (scalar -> denominator)
-      * scalar=0 
+    - Calculation between Matrices <br>
+      \- *Addition*
       ```
-      # Dominator can't be 0
-      What operation do you want to do with scalar (+,-,*,/): /
-      Give scalar: 0
-      Unapropriate Number. No operation done!
-      ```
-      * scalar!=0 
-      ```
-      What operation do you want to do with scalar (+,-,*,/): /
-      Give scalar: 5
-      
-      # Approximately Result due to Math.round()
+      Give operation (+,-,*,/): +
+    
       New Matrix (4x5):
-      0 11 14 19 0 
-      18 15 15 4 15 
-      2 18 4 4 17 
-      0 16 18 4 4
+      112 172 98  94  125 
+      152 107 86  63  105 
+      82  120 142 81  182 
+      61  179 36  118 177
       ```
-    \- *Error Message*
-    ```
-    What operation do you want to do with scalar (+,-,*,/): (Anything that doesn't equal: +, -, *, /)
-    Null Operation. Try again (+,-,*,/)!
-    ```
-    \- Ending Symbol
-    ```
-    What operation do you want to do with scalar (+,-,*,/): !
+      \- *Subtraction*
+      ```
+      Give operation (+,-,*,/): -
     
-    End of operations.
-    ```
-- **MatrixRotation**
-  - Initial Matrices 
-  ```
-  Original Matrix (5x4):
-  29 93  1 90 
-   9 53 56 55 
-  74 28 95 43 
-  93 93 43 39 
-  38  0 77 15 
-
-  Give rotation degree (until 360): ...
-  ```
-  - Rotation (in degrees)<br>
-    * *0, 360*
+      New Matrix (4x5):
+      -1 6 -22 84 -60 
+      77 59 -18 -27 56 
+      4 41 -53 -13 57 
+      -15 65 91 -18 -68
       ```
-      Give rotation degree (until 360): (0 or 360)
-      Matrix doesn't change/remains the same
+      \-  *Multiplication*
       ```
-    * *90*
+      Give operation (+,-,*,/): *
+  
+      New Matrix (4x5):
+       0   2907 6768 1152  189 
+      1380 1482 7315 1150 1817 
+      117  4692 1554 770  2380 
+      76   1296   0  943  1760
       ```
-      Give rotation degree (until 360): 90
-
-      Matrix (4x5) rotated in 90 degrees is: 
-      38 93 74  9 29 
-       0 93 28 53 93 
-      77 43 95 56  1 
-      15 39 43 55 90
+      \- *Division* --> A/B = A*B^(-1)
+        * 2nd matrix not invertible
+        ```
+        Give operation (+,-,*,/): /
+        2nd Matrix not Squared/Invertible -> No Division!
+        ```
+        * 2nd matrix invertible  
+        ```
+        # I use these simple matrices due to the complications this operation can have
+        Matrix 1 (3x3):
+        2 0 1 
+        1 3 2 
+        0 1 1 
+        
+        Matrix 2 (3x3):
+        2 0 1 
+        1 2 1 
+        3 4 2 
+        
+        Give operation (+,-,*,/): /
+  
+        # Approximately Result due to Math.round()
+        New Matrix (3x3):
+        0  0  1 
+        0 -1  1 
+        0  4 -2 
+        ```
+      \- *Error Message*
+      ```
+      Give operation (+,-,*,/): (Anything that doesn't equal: +, -, *, /) 
+      Null Operation. Try again (+,-,*,/)!
+      ```
+      \- Ending Symbol
+      ```
+      Give operation (+,-,*,/): !
+      End of this operation.
+  
+      What operation do you want to do with scalar (+,-,*,/): ...
+      ```
+    - Calculation between matrix and number<br>
+      \- *Addition*
+      ```
+      What operation do you want to do with scalar (+,-,*,/): +
+      Give scalar: 8
+  
+      New Matrix (4x5):
+      8 65 80 104 11 
+      100 86 85 31 87 
+      21 100 29 30 93 
+      12 89 99 31 28
+      ```
+       \- *Subtraction*
+      ```
+      What operation do you want to do with scalar (+,-,*,/): -
+      Give scalar: 3
+  
+      New Matrix (4x5):
+      -3 54 69 93 0 
+      89 75 74 20 76 
+      10 89 18 19 82 
+      1 78 88 20 17 
+      ```
+      \- *Multiplication* (**Hadamard product**)
+      ```
+      What operation do you want to do with scalar (+,-,*,/): *
+      Give scalar: 2
       
+      New Matrix (5x4):
+      0 114 144 192 6 
+      184 156 154 46 158 
+      26 184 42 44 170 
+      8 162 182 46 40
       ```
-    * *180*
+      \- *Division* (scalar -> denominator)
+        * scalar=0 
+        ```
+        # Dominator can't be 0
+        What operation do you want to do with scalar (+,-,*,/): /
+        Give scalar: 0
+        Unapropriate Number. No operation done!
+        ```
+        * scalar!=0 
+        ```
+        What operation do you want to do with scalar (+,-,*,/): /
+        Give scalar: 5
+        
+        # Approximately Result due to Math.round()
+        New Matrix (4x5):
+        0 11 14 19 0 
+        18 15 15 4 15 
+        2 18 4 4 17 
+        0 16 18 4 4
+        ```
+      \- *Error Message*
       ```
-      Give rotation degree (until 360): 180
-
-      Matrix (5x4) rotated in 180 degrees is: 
-      15 77  0 38 
-      39 43 93 93 
-      43 95 28 74 
-      55 56 53  9 
-      90  1 93 29  
-
+      What operation do you want to do with scalar (+,-,*,/): (Anything that doesn't equal: +, -, *, /)
+      Null Operation. Try again (+,-,*,/)!
       ```
-    * *270*
+      \- Ending Symbol
       ```
-      Give rotation degree (until 360): 270
-
-      Matrix (4x5) rotated in 270 degrees is: 
-      90 55 43 39 15 
-      1 56 95 43 77 
-      93 53 28 93 0 
-      29 9 74 93 38 
-
+      What operation do you want to do with scalar (+,-,*,/): !
+      
+      End of operations.
       ```
-    * *Not valid (degree) value* message<br>
-      \- Multiples of *90* ((value % 90)==0 (e.g. the above))
+  - **MatrixRotation**
+    - Initial Matrices 
+    ```
+    Original Matrix (5x4):
+    29 93  1 90 
+     9 53 56 55 
+    74 28 95 43 
+    93 93 43 39 
+    38  0 77 15 
+  
+    Give rotation degree (until 360): ...
+    ```
+    - Rotation (in degrees)<br>
+      * *0, 360*
+        ```
+        Give rotation degree (until 360): (0 or 360)
+        Matrix doesn't change/remains the same
+        ```
+      * *90*
+        ```
+        Give rotation degree (until 360): 90
+  
+        Matrix (4x5) rotated in 90 degrees is: 
+        38 93 74  9 29 
+         0 93 28 53 93 
+        77 43 95 56  1 
+        15 39 43 55 90
+        
+        ```
+      * *180*
+        ```
+        Give rotation degree (until 360): 180
+  
+        Matrix (5x4) rotated in 180 degrees is: 
+        15 77  0 38 
+        39 43 93 93 
+        43 95 28 74 
+        55 56 53  9 
+        90  1 93 29  
+  
+        ```
+      * *270*
+        ```
+        Give rotation degree (until 360): 270
+  
+        Matrix (4x5) rotated in 270 degrees is: 
+        90 55 43 39 15 
+        1 56 95 43 77 
+        93 53 28 93 0 
+        29 9 74 93 38 
+  
+        ```
+      * *Not valid (degree) value* message<br>
+        \- Multiples of *90* ((value % 90)==0 (e.g. the above))
+        ```
+        Give rotation degree (until 360): 156
+        Invalid rotation degree.Try again!
+  
+        Give rotation degree (until 360):
+        ```
+        \- Bigger than 360
+        ```
+        # 450= 360+90 --> Multiple of 90
+        Give rotation degree (until 360): 450 
+        Invalid rotation degree.Try again!
+  
+        Give rotation degree (until 360):
+        ```
+    - *User Interaction*(Decision)<br>
+      \- yes
       ```
-      Give rotation degree (until 360): 156
-      Invalid rotation degree.Try again!
-
+      Do you want to continue rotating(y/n)? y
+      
+      Give rotation degree (until 360): 
+      ```
+      \- no
+      ```
+      Do you want to continue rotating(y/n)? n
+      
+      End of rotation!
+      ```
+      \- *Message*
+      ```
+      Do you want to continue rotating(y/n)? (not y/Y or n/N)
+      Invalid answer.Try again!
+      
       Give rotation degree (until 360):
       ```
-      \- Bigger than 360
-      ```
-      # 450= 360+90 --> Multiple of 90
-      Give rotation degree (until 360): 450 
-      Invalid rotation degree.Try again!
-
-      Give rotation degree (until 360):
-      ```
-  - *User Interaction*(Decision)<br>
-    \- yes
-    ```
-    Do you want to continue rotating(y/n)? y
-    
-    Give rotation degree (until 360): 
-    ```
-    \- no
-    ```
-    Do you want to continue rotating(y/n)? n
-    
-    End of rotation!
-    ```
-    \- *Message*
-    ```
-    Do you want to continue rotating(y/n)? (not y/Y or n/N)
-    Invalid answer.Try again!
-    
-    Give rotation degree (until 360):
-    ```
-    Note: The y/n are **case-insensitive**
-- 
+      Note: The y/n are **case-insensitive**
+  - 
