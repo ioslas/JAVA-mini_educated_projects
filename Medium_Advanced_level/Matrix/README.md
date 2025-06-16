@@ -10,7 +10,7 @@ This project is divided into **3 folders**, each containing self-contained (*one
 This split is based on the **type of Matrix**:
 1. **General (non-square) Matrices**
 2. **Square Matrices**
-3. **Main/src folder**
+3. **Main/src folder** — contains the project's **core logic** and additional programs **independent** from the core - hence they are in src folder
 
 ***Note:*** Some operations are only valid for square matrices (e.g. determinant, inverse), and cannot be performed on general matrices — hence the separation.
 
@@ -22,8 +22,8 @@ This split is based on the **type of Matrix**:
 
   Purpose: Comparing the **algorithms' complexity** between using the reusable *core class* and the *static (classes)* implementations. 
 - The Matrix class has **2 constructors**:
-  1. One with defined *rows and columns*
-  2. One with predefined *data*
+  1. One that initializes the *rows and columns*
+  2. One that initializes the *data* of matrix using predefined data
 - In some comments there are **simple, custom matrices* — to help visually verify that each method behaves correctly and follows matrix rules — making the output easier to understand   
 
 ## Technologies Used
