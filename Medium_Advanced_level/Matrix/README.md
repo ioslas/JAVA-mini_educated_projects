@@ -337,7 +337,7 @@ java StaticMatrices
       ```
       Note: The y/n are **case-insensitive**
 - **Square Matrix** folder
-  - r
+  - **SquareMatrixBasics**
   ```
   Matrix (4x4):
   94 16 23 94 
@@ -361,7 +361,7 @@ java StaticMatrices
   65 18 0  0 
   50 39 86 0 
   ```
-  \* For Symmetric Matrix
+  \* For Symmetric matrix
   ```
   Matrix (3x3):
   1 2 3
@@ -375,7 +375,7 @@ java StaticMatrices
   .
   .
   ```
-  \*  For Identity Matrix
+  \*  For Identity matrix
   ```
   Matrix (3x3):
   1 0 0
