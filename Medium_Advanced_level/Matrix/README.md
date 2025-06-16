@@ -313,24 +313,24 @@ Maximum element of Matrix = 96
 
       Give rotation degree (until 360):
       ```
-    * *User Interaction*(Decision)<br>
-      \- yes
-      ```
-      Do you want to continue rotating(y/n)? y
-      
-      Give rotation degree (until 360): 
-      ```
-      \- no
-      ```
-      Do you want to continue rotating(y/n)? n
-      
-      End of rotation!
-      ```
-      \- *Message*
-      ```
-      Do you want to continue rotating(y/n)? (not y/Y or n/N)
-      Invalid answer.Try again!
-      
-      Give rotation degree (until 360):
-      ```
-      Note: The y/n are **case-insensitive**
+  - *User Interaction*(Decision)<br>
+    \- yes
+    ```
+    Do you want to continue rotating(y/n)? y
+    
+    Give rotation degree (until 360): 
+    ```
+    \- no
+    ```
+    Do you want to continue rotating(y/n)? n
+    
+    End of rotation!
+    ```
+    \- *Message*
+    ```
+    Do you want to continue rotating(y/n)? (not y/Y or n/N)
+    Invalid answer.Try again!
+    
+    Give rotation degree (until 360):
+    ```
+    Note: The y/n are **case-insensitive**
