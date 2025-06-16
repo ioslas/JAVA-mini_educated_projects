@@ -214,24 +214,34 @@ Maximum element of Matrix = 96
     26 184 42 44 170 
     8 162 182 46 40
     ```
-    \- Division
+    \- Division (scalar -> denominator)
+      * scalar=0 
+      ```
+      What operation do you want to do with scalar (+,-,*,/): /
+      Give scalar: 0
+      Unapropriate Number. No operation done!
+      ```
+      * scalar!=0 
+      ```
+      What operation do you want to do with scalar (+,-,*,/): /
+      Give scalar: 5
+      
+      # Approximately Result due to Math.round()
+      New Matrix (4x5):
+      0 11 14 19 0 
+      18 15 15 4 15 
+      2 18 4 4 17 
+      0 16 18 4 4
+      ```
+    \- Error Message
     ```
-    What operation do you want to do with scalar (+,-,*,/): /
-    Give scalar: 5
+    What operation do you want to do with scalar (+,-,*,/): (Anything that doesn't equal: +, -, *, /)
+    Give scalar: 1
+    Null Operation. Try again (+,-,*,/)!
+    ```
+    \- Ending Symbol
+    ```
+    What operation do you want to do with scalar (+,-,*,/): !
     
-    # Approximately Result due to Math.round()
-    New Matrix (4x5):
-    0 11 14 19 0 
-    18 15 15 4 15 
-    2 18 4 4 17 
-    0 16 18 4 4
+    End of operations.
     ```
-    ```
-    What operation do you want to do with scalar (+,-,*,/): ]
-Give scalar: 1
-Null Operation. Try again (+,-,*,/)!
-
-What operation do you want to do with scalar (+,-,*,/): !
-
-End of operations.
-```
