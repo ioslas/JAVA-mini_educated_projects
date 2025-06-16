@@ -389,7 +389,7 @@ java StaticMatrices
   .
   .
   ```
-  - SquareMatrixOperations (Mostly like find the inverse of matrix)
+  - SquareMatrixOperations (Mostly like find the inverse of matrix, showing each step of solving that problem)
   ```
   Matrix (3x3):
   43 13 5 
@@ -408,5 +408,22 @@ java StaticMatrices
    0,025 -0,010  0,009 
   -0,006  0,036 -0,043 
   -0,000 -0,005  0,033 
+  ```
+  \* Matrix with det=0 -> not invertible
+  ```
+  Matrix (3x3):
+  2 4 6 
+  1 3 5 
+  0 2 4 
+  
+  det= 0.0
+  
+  Adjoint of matrix (3x3):
+  2  -4  2 
+  -4  8 -4 
+  2  -4  2 
+
+
+  Matrix is not invertible
   ```
   -  
