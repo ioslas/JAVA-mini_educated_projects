@@ -298,7 +298,7 @@ java StaticMatrices
         29 9 74 93 38 
   
         ```
-      \* *Not valid (degree) value* message<br>
+      \* *Not valid (degree) value* message
 
           - Multiples of *90* ((value % 90)==0 (e.g. the above))
           ```
