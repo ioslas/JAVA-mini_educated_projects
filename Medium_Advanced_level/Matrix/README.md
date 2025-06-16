@@ -396,14 +396,16 @@ java StaticMatrices
   10 37 46 
   2 6 38 
 
-  # Determinant can be also negative
+  # Find Determinant which can be also negative
   det= 44776.0 
-  
+
+  # Find the Adjoint which needs Determinant
   Adjoint of matrix (3x3):
   1130 -464   413 
   -288 1624 -1928 
   -14  -232  1461 
-  
+
+  # Inverse matrix = Adjoint / Determinant
   Inverse matrix (3x3):
    0,025 -0,010  0,009 
   -0,006  0,036 -0,043 
