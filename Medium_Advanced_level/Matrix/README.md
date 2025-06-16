@@ -361,20 +361,20 @@ java StaticMatrices
   65 18 0  0 
   50 39 86 0 
   ```
-    For Symmetric matrix
-    ```
-    Matrix (3x3):
-    1 2 3
-    2 4 5
-    3 5 6
+        For Symmetric matrix
+  ```
+  Matrix (3x3):
+  1 2 3
+  2 4 5
+  3 5 6
+
+  The matrix is not symmetric
   
-    The matrix is not symmetric
-    
-    This matrix is not identity matrix
-    .
-    .
-    .
-    ```
+  This matrix is not identity matrix
+  .
+  .
+  .
+  ```
     For Identity matrix
     ```
     Matrix (3x3):
