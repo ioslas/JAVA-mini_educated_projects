@@ -389,4 +389,24 @@ java StaticMatrices
   .
   .
   ```
-  - 
+  - SquareMatrixOperations (Mostly like find the inverse of matrix)
+  ```
+  Matrix (3x3):
+  43 13 5 
+  10 37 46 
+  2 6 38 
+
+  # Determinant can be also negative
+  det= 44776.0 
+  
+  Adjoint of matrix (3x3):
+  1130 -464   413 
+  -288 1624 -1928 
+  -14  -232  1461 
+  
+  Inverse matrix (3x3):
+   0,025 -0,010  0,009 
+  -0,006  0,036 -0,043 
+  -0,000 -0,005  0,033 
+  ```
+  -  
