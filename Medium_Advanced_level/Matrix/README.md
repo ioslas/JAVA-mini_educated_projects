@@ -362,7 +362,7 @@ java StaticMatrices
   50 39 86 0 
   ```
   
-  > For Symmetric matrix
+  > For **Symmetric** matrix
   ```
   Matrix (3x3):
   1 2 3
@@ -377,7 +377,7 @@ java StaticMatrices
   .
   ```
   
-  > For Identity matrix
+  > For **Identity** matrix
   ```
   Matrix (3x3):
   1 0 0
