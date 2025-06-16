@@ -414,7 +414,7 @@ java StaticMatrices
   -0,006  0,036 -0,043 
   -0,000 -0,005  0,033 
   ```
-  \* Matrix with det=0 -> not invertible
+  > Matrix with det=0 -> not invertible
   ```
   Matrix (3x3):
   2 4 6 
