@@ -297,5 +297,40 @@ Maximum element of Matrix = 96
       29 9 74 93 38 
 
       ```
-    * 
+    * *Not valid (degree) value* message<br>
+      \- Multiples of *90* ((value % 90)==0 (e.g. the above))
+      ```
+      Give rotation degree (until 360): 156
+      Invalid rotation degree.Try again!
+
+      Give rotation degree (until 360):
+      ```
+      \- Bigger than 360
+      ```
+      # 450= 360+90 --> Multiple of 90
+      Give rotation degree (until 360): 450 
+      Invalid rotation degree.Try again!
+
+      Give rotation degree (until 360):
+      ```
+    * *User Interaction*(Decision)<br>
+      \- yes
+      ```
+      Do you want to continue rotating(y/n)? y
       
+      Give rotation degree (until 360): 
+      ```
+      \- no
+      ```
+      Do you want to continue rotating(y/n)? n
+      
+      End of rotation!
+      ```
+      \- *Message*
+      ```
+      Do you want to continue rotating(y/n)? (not y/Y or n/N)
+      Invalid answer.Try again!
+      
+      Give rotation degree (until 360):
+      ```
+      Note: The y/n are **case-insensitive**
