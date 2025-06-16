@@ -52,7 +52,7 @@ java StaticMatrices
 ```
 
 ## Demo/Example Usage
-- MatrixBasics
+- **MatrixBasics**
 ```
 Original Matrix (5x6):
 50 17 92 67 45 50 
@@ -93,7 +93,7 @@ Sum of Matrix's elements each column:
 Minimum element of Matrix = 13
 Maximum element of Matrix = 96
 ```
-- MatrixCalculations
+- **MatrixCalculations**
   - Initial Matrices 
   ```
   Matrix 1 (4x5):
@@ -111,7 +111,7 @@ Maximum element of Matrix = 96
   Give operation (+,-,*,/): ...
   ```
   - Calculation between Matrices <br>
-    \- Addition
+    \- *Addition*
     ```
     Give operation (+,-,*,/): +
   
@@ -121,7 +121,7 @@ Maximum element of Matrix = 96
     82  120 142 81  182 
     61  179 36  118 177
     ```
-    \- Subtraction
+    \- *Subtraction*
     ```
     Give operation (+,-,*,/): -
   
@@ -131,7 +131,7 @@ Maximum element of Matrix = 96
     4 41 -53 -13 57 
     -15 65 91 -18 -68
     ```
-    \-  Multiplication
+    \-  *Multiplication*
     ```
     Give operation (+,-,*,/): *
 
@@ -141,7 +141,7 @@ Maximum element of Matrix = 96
     117  4692 1554 770  2380 
     76   1296   0  943  1760
     ```
-    \- Division --> A/B = A*B^(-1)
+    \- *Division* --> A/B = A*B^(-1)
       * 2nd matrix not invertible
       ```
       Give operation (+,-,*,/): /
@@ -168,7 +168,7 @@ Maximum element of Matrix = 96
       0 -1  1 
       0  4 -2 
       ```
-    \- Error Message
+    \- *Error Message*
     ```
     Give operation (+,-,*,/): (Anything that doesn't equal: +, -, *, /) 
     Null Operation. Try again (+,-,*,/)!
@@ -181,7 +181,7 @@ Maximum element of Matrix = 96
     What operation do you want to do with scalar (+,-,*,/): ...
     ```
   - Calculation between matrix and number<br>
-    \- Addition
+    \- *Addition*
     ```
     What operation do you want to do with scalar (+,-,*,/): +
     Give scalar: 8
@@ -192,7 +192,7 @@ Maximum element of Matrix = 96
     21 100 29 30 93 
     12 89 99 31 28
     ```
-     \- Subtraction
+     \- *Subtraction*
     ```
     What operation do you want to do with scalar (+,-,*,/): -
     Give scalar: 3
@@ -203,7 +203,7 @@ Maximum element of Matrix = 96
     10 89 18 19 82 
     1 78 88 20 17 
     ```
-    \- Multiplication (Hadamard product)
+    \- *Multiplication* (**Hadamard product**)
     ```
     What operation do you want to do with scalar (+,-,*,/): *
     Give scalar: 2
@@ -214,7 +214,7 @@ Maximum element of Matrix = 96
     26 184 42 44 170 
     8 162 182 46 40
     ```
-    \- Division (scalar -> denominator)
+    \- *Division* (scalar -> denominator)
       * scalar=0 
       ```
       # Dominator can't be 0
@@ -234,7 +234,7 @@ Maximum element of Matrix = 96
       2 18 4 4 17 
       0 16 18 4 4
       ```
-    \- Error Message
+    \- *Error Message*
     ```
     What operation do you want to do with scalar (+,-,*,/): (Anything that doesn't equal: +, -, *, /)
     Null Operation. Try again (+,-,*,/)!
