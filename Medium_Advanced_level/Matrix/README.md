@@ -361,7 +361,8 @@ java StaticMatrices
   65 18 0  0 
   50 39 86 0 
   ```
-        For Symmetric matrix
+  
+  * For Symmetric matrix
   ```
   Matrix (3x3):
   1 2 3
@@ -375,20 +376,22 @@ java StaticMatrices
   .
   .
   ```
-    For Identity matrix
-    ```
-    Matrix (3x3):
-    1 0 0
-    0 1 0
-    0 0 1
   
-    The matrix is symmetric
-    
-    This matrix is not identity matrix
-    .
-    .
-    .
-    ```
+  * For Identity matrix
+  ```
+  Matrix (3x3):
+  1 0 0
+  0 1 0
+  0 0 1
+
+  The matrix is symmetric
+  
+  This matrix is not identity matrix
+  .
+  .
+  .
+  ```
+  
   - SquareMatrixOperations (Mostly like find the inverse of matrix, showing each step of solving that problem)
   ```
   Matrix (3x3):
