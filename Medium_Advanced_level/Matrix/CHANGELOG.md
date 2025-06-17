@@ -1,13 +1,13 @@
 # Changelog
 ## [1.0.1] - 13-06-2025 12:55
 ### Changes to `printSpiral()` method:
-1. Add an if before the right->left traversal loop 
+1. Added *if* before the *right->left* traversal loop 
 ```java
 if(top<=bottom) 
   for(i=right;i>=left;i--) 
      ...
 ```
-2. Same adjustment for the traversal from down -> up, but also moving the entire block inside of the main loop (in the *previous version* this block was outside of the loop - still worked properly)
+2. Same adjustment for the traversal from *down -> up*, but also moving the entire block **inside the main loop** (in the *previous version* this block was outside of the loop - still worked properly)
 ```java
 while(...) { // Bounds for avoiding over-traversing           
    if(left <= right)
