@@ -510,5 +510,6 @@ java StaticMatrices
   64 76 37 11 25 
   54 88 82 41 96 
   ```
-  *Note*: The degrees are given **automatically (not from the user)**, wihtout checking if the number is *appropriate*(multiple of 90) or *0 & 360 -> matrix same* in order not to make the code bigger
+  *Note*: The degree values are generated automatically (not provided by the user), and there is no validation to check if the value is appropriate (e.g. being a multiple of 90) or value=*0 or 360 -> matrix is the same*. This was done to keep the code minimal and focused on the core transformation logic.
+
 
