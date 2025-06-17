@@ -216,14 +216,14 @@ java StaticMatrices
       8 162 182 46 40
       ```
       \- *Division* (scalar -> denominator)
-        * scalar=0 
+        > scalar=0 
         ```
         # Dominator can't be 0
         What operation do you want to do with scalar (+,-,*,/): /
         Give scalar: 0
         Unapropriate Number. No operation done!
         ```
-        * scalar!=0 
+        > scalar!=0 
         ```
         What operation do you want to do with scalar (+,-,*,/): /
         Give scalar: 5
