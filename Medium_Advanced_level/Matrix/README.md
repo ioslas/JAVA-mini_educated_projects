@@ -538,4 +538,5 @@ java StaticMatrices
   Matrix is not invertible
   ```
 
-## 
+## Notes
+
