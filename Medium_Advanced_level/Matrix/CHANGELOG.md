@@ -18,7 +18,7 @@ while(...) { // Bounds for avoiding over-traversing
   
 ## [1.0.2] - 13-06-2025 13:27
 ### Changes to `MatrixCalculations` problem:
-- I chnage the `do ... while` loop to `while` when asking the operation(+,*, e.g.) the user wants to use, in order to avoid an extra loop at start when the user wants to finish the loop:
+- I chnage the `do ... while` loop to `while` loop when **prompting** the user for an operation (`+, -, *, /`), in order to avoid an unnecessary **first iteration** when the user wants to *exit immediately*:
 ```
 # With do...while
 # !: symbol of ending the loop
@@ -31,8 +31,13 @@ Give operation (+,-,*,/):!
 # With while
 Give operation (+,-,*,/):!
 #The End
+
+# Same thing with below too
+// What operation do you want to do with scalar (+,-,*,/)
 ```
--   
+**Conclusion**: Even it changes slightly the **printing outcome**, the core proccess is remaining the same. So it's percieved more as minor change
+
+- 
 
 
 
