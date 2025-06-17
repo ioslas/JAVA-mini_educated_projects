@@ -19,20 +19,20 @@ while(...) { // Bounds for avoiding over-traversing
 ## [1.0.2] - 13-06-2025 13:27
 ### Changes to `MatrixCalculations` class/problem:
 - Chnaged the `do ... while` loop to `while` loop when **prompting** the user for an operation (`+, -, *, /`), in order to avoid an unnecessary **first iteration** when the user wants to *exit immediately*:
-```
-# With do...while
-# !: symbol of ending the loop
-Give operation (+,-,*,/):!
-Null Operation. Try again (+,-,*,/)!
+  - With do...while
+  ```
+  # !: symbol of ending the loop
+  Give operation (+,-,*,/):!
+  Null Operation. Try again (+,-,*,/)!
 
-Give operation (+,-,*,/):!
-#The End 
-```
-```
-# With while
-Give operation (+,-,*,/):!
-#The End
-
+  Give operation (+,-,*,/):!
+  #The End 
+  ```
+  - With while
+  ```
+  Give operation (+,-,*,/):!
+  #The End
+  ```
 # Same thing with below too
 // What operation do you want to do with scalar (+,-,*,/)
 ```
