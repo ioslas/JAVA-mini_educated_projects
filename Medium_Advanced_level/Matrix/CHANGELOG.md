@@ -33,7 +33,7 @@ while(...) { // Bounds for avoiding over-traversing
   Give operation (+,-,*,/):!
   #The End
   ```
-  **Note**: Same thing with below too
+  **Note**: Same thing with below too (which follows after finishing the above)
   ```
   What operation do you want to do with scalar (+,-,*,/): ...
   ...
