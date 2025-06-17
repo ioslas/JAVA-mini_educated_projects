@@ -539,4 +539,31 @@ java StaticMatrices
   ```
 
 ## Notes
+1. In **Multiplication** between matrices, I use the **Hadamard product/element-wise multiplication** (providing that the 2 matrices have the **same dimensions**) in order to: 
+   a) Avoid an extra nested loop
+      ```java
+      // General Matrix Multiplication
+      for(int i=0;i<rows;i++)
+        for(int j=0;j<cols;j++)
+           C[i][j]=0;
+           for(int k=0;k<rows;k++) // or k<cols
+             C[i][j] += A[i][k] * B[k][j];
 
+      // Hadamard
+      for(int i=0;i<rows;i++)
+        for(int j=0;j<cols;j++)
+           C[i][j] = A[i][J] * B[I][j];
+        			
+      ```
+   b) Make the result easy to interpret visually (because with the raw matrix multiplication can be hard for users to follow) 
+      ```
+      Matrix A(2x2)      Matrix B(2x2)
+      3 20               11  4
+      5 1                 5 47 
+
+      Matrix C = A*B (2x2)
+      33 80 
+      25 47 
+      ``` 
+2.   
+ 
