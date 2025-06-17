@@ -17,7 +17,7 @@ while(...) { // Bounds for avoiding over-traversing
 **Conclusion**: While the **previous version** gave *accurate results*, **testing** showed that it only worked for specific shapes, like small or square matrices. So, it wasn't reliable enough for general matrices. Although the **outcome** itself didn’t change significantly, these *updates* improve the method’s **stability and reliability** for general cases.
   
 ## [1.0.2] - 13-06-2025 13:27
-### Changes to `MatrixCalculations` problem:
+### Changes to `MatrixCalculations` class/problem:
 - Chnaged the `do ... while` loop to `while` loop when **prompting** the user for an operation (`+, -, *, /`), in order to avoid an unnecessary **first iteration** when the user wants to *exit immediately*:
 ```
 # With do...while
@@ -27,7 +27,8 @@ Null Operation. Try again (+,-,*,/)!
 
 Give operation (+,-,*,/):!
 #The End 
-
+```
+```
 # With while
 Give operation (+,-,*,/):!
 #The End
@@ -37,7 +38,23 @@ Give operation (+,-,*,/):!
 ```
 **Conclusion**: Even though this slightly changes the **printing outcome**, the *core proccess* is remaining the same. It is therefore considered a **minor usability improvement** rather than a *functional change*
 
+## [1.0.2] - 13-06-2025 13:52
+### Changes to `MatrixRotation` class/problem:
+- Added `do ... while` loop with a user interaction `Do you want to continue? yes(y) or no(n)` in the main class in order to give the user the availability to see all the possible outcomes of the project depending on his choices, and not seeing only an outcome:
+```
+# 
+Give rotation degree (until 360): ...
 
+# Matrix (...) rotated in ... degrees is: 
+...
+
+Do you want to continue rotating(y/n)? y
+
+Give rotation degree (until 360): 
+...
+
+
+```   
 
 
 13/6 13:52 Add while in rotation
