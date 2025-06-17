@@ -8,19 +8,19 @@ public class Matrix {
    public Matrix(int rows, int cols) {
       this.rows=rows;
       this.cols=cols;
-      this.matr=new int[rows][cols];
+      matr=new int[rows][cols];
    }
    // Constructor with data matrix
    public Matrix(int[][] data) {
-      this.rows=data.length;
-      this.cols=data[0].length;
-      this.matr=data;
+      rows=data.length;
+      cols=data[0].length;
+      matr=data;
    }
    // Create Matrix
    public void CreateMatrix() {
       for(int i=0;i<rows;i++) 
          for(int j=0;j<cols;j++)
-            matr[i][j]=new Random().nextInt(10);
+            matr[i][j]=new Random().nextInt(50);
    }
    // Get Rows & Columns 
    public int getRows() {
@@ -28,10 +28,6 @@ public class Matrix {
    }
    public int getCols() {
       return cols;
-   }
-   // Convert Matrix to Array(int[][])
-   public int[][] toArray() {
-      return matr;
    }
    // Print Matrix
    public void printMatrix() {
@@ -59,13 +55,13 @@ public class Matrix {
       // if det==0 -> not inversed matrix
       int determinant=det(new Matrix(matr), N);
       if (determinant==0) {
-         System.out.println("\nMatrix is not inversable");
+         System.out.println("\nMatrix is not invertible");
          return false;
       }else
     	// inv(A) = adj(A)/det(A)
         for(int i=0;i<N;i++) 
            for(int j=0;j<N;j++)
-              inv[i][j] = adjoint[i][j]/determinant;
+        	  inv[i][j] = (float) adjoint[i][j]/determinant;
       
       return true;
    }
@@ -136,59 +132,86 @@ public class Matrix {
     */
    public Matrix calculate(Matrix m, String op) {
       sum=new int[rows][cols];
-      // Matrix will be calculated with its own self
-      int[][] M=m.toArray();
+      // Convert Matrix -> int[][]
+      int[][] M= m.matr;
+      
+      if (m.rows!=rows || m.cols!=cols) {
+          System.out.println("Matrix dimensions do not match for operation: "+ op);
+          return null;
+      }
       for(int i=0;i<rows;i++) 
          for(int j=0;j<cols;j++) 
-            if(op.equals("+")) // Addition
-                sum[i][j]= matr[i][j] + M[i][j];
-            else if(op.equals("-")) // Subtraction
-                sum[i][j]= matr[i][j] - M[i][j];
-            else if(op.equals("*")) // Multiplication
-                sum[i][j]= matr[i][j] * M[i][j];
-            else if (op.equals("/")) { // Division(sort of)
-            	float[][] inv=new float[rows][cols];
-                // Check if 2nd matrix is squared and invertible
-            	if(m.rows==m.cols && m.inverse(m.rows,inv))
-            		/* I made float -> int with round method because: 
-            		 * 1. I can't cast sum matrix(table) from int -> float
-            		 * 2. The matrix's class property about the table is int[][]
-            		 *    so in "return new Matrix(as it shown below)" can't be float[][]
-            		 */
-            	    sum[i][j] = Math.round(matr[i][j]*inv[i][j]); 
-                else { 
-                	System.out.println("2nd Matrix not Squared/Invertible -> No Division!\n");
-                	return null;
-                }
-            }else {
-            	System.out.println("Null Operation. Try again later!\n");
-            	return null;
-            }
+        	switch(op) {
+        		case("+"): // Addition
+        			sum[i][j]= matr[i][j] + M[i][j];
+        			break;
+        		case("-"): // Subtraction
+        			sum[i][j]= matr[i][j] - M[i][j];
+        			break;
+        		case("*"): // Multiplication (Hadamard product (element-wise))
+        			// Matrices with the same dimensions: C[i][j] = A[i][j]*B[i][j]
+        			sum[i][j]= matr[i][j] * M[i][j];
+        			/* General Matrix Multiplication (if you want to use it)
+        			   sum[i][j]=0;
+        			   for(int k=0;k<rows;k++) // or k<cols
+        			 	  sum[i][j] += matr[i][k] * M[k][j];
+        			*/ 
+        			break;
+        		case("/"): // Division(sort of)
+        			// Check if 2nd matrix is squared and invertible
+        			if(m.rows==m.cols) {
+        				float[][] inv=new float[rows][cols];
+        				if(m.inverse(m.rows,inv)) 
+	        				/* I made float -> int with round method because: 
+		            		 * 1. I can't cast sum matrix(table) from int -> float
+		            		 * 2. The matrix's class property about the table is int[][]
+		            		 *    so in "return new Matrix(as it shown below)" can't be float[][]
+		            		 */
+		            	    sum[i][j] = Math.round(matr[i][j]*inv[i][j]); 
+        			}else {	 
+        				System.out.println("2nd Matrix not Squared/Invertible -> No Division!\n");
+        				return null;
+        			}
+        			break;
+        		default:
+        			System.out.println("Null Operation. Try again (+,-,*,/)!\n");
+        			return null;
+        		}
+        		
       return new Matrix(sum);
    }
    // Calculation between matrix and number (scalar)
    public Matrix calculate(String op) {
+	   int[][] sum=new int[rows][cols];
+	   // I put the default (of switch) check here in order to avoid reading the scalar
+	   if (!(op.equals("+") || op.equals("-") || op.equals("*") || op.equals("/"))) {
+	        System.out.println("Null Operation. Try again (+,-,*,/)!\n");
+	        return null;
+	   }
 	   System.out.print("Give scalar: ");
        int scalar=new Scanner(System.in).nextInt();
-	   for(int i=0;i<rows;i++) 
+	   
+       for(int i=0;i<rows;i++) 
           for(int j=0;j<cols;j++)  
-             if(op.equals("+")) // Addition
-            	sum[i][j]= matr[i][j] + scalar;
-             else if(op.equals("-")) // Subtraction
-                sum[i][j]= matr[i][j] - scalar;
-             else if(op.equals("*")) // Multiplication
-                sum[i][j]= matr[i][j] * scalar;
-             else if(op.equals("/")) { // Division
-      	        if(scalar!=0) // Can't devide by zero
-      		       sum[i][j]= Math.round(matr[i][j] / scalar);
-      	        else {
-      	           System.out.println("Unapropriate Number. No operation done!\n");
-      	           return null;
-      	        }
-             }else {
-            	 System.out.println("Null Operation. Try again later!\n");
-            	 return null;
-             }
+        	switch(op) {
+	      		case("+"): // Addition
+	      			sum[i][j]= matr[i][j] + scalar;
+	      			break;
+	      		case("-"): // Subtraction
+	      			sum[i][j]= matr[i][j] - scalar;
+	      			break;
+	      		case("*"): // Multiplication
+	      			sum[i][j]= matr[i][j] * scalar;
+	      			break;
+	      		case("/"): // Division
+	      	        if(scalar!=0) // Can't devide by zero
+	      		       sum[i][j]= Math.round(matr[i][j] / scalar); // Same reason with the above calculate
+	      	        else {
+	      	           System.out.println("Unapropriate Number. No operation done!\n");
+	      	           return null;
+	      	        }
+	      			break;
+        	}
 	   
 	   return new Matrix(sum);
 	}
@@ -210,10 +233,10 @@ public class Matrix {
       return diagSum;
    }
    // Check if the matrix is symmetric
-   public boolean isSymmetric(Matrix trans) {
+   public boolean isSymmetric() {
       for(int i=0;i<rows;i++) 
          for(int j=0;j<cols;j++) 
-            if (matr[i][j]!=matr[i][j]) 
+            if (matr[i][j]!=matr[j][i]) 
                return false;
       return true;
    }
@@ -234,7 +257,6 @@ public class Matrix {
    public Matrix rotate(int clocks) {
       int[][] temp;
       int i,j;
-      // In 0 degrees
       if(clocks==90) { // Rotate 90 degrees
          temp=new int[cols][rows];
          for(i=0;i<rows;i++) 
@@ -253,13 +275,13 @@ public class Matrix {
       }
       return new Matrix(temp);
    }
-   // Matrix elements in spiral order
+   // Matrix's elements in spiral order
    public void printSpiral() {
       int top=0, left=0;
       int bottom=rows-1, right=cols-1;
       if(cols==1 && rows==1) { // 1x1
          System.out.println(matr[0][0]);
-      }else {
+      }else 
         if(rows==1) { // 1xn
           for(int i=0;i<cols;i++) 
              System.out.print(matr[0][i] +" ");
@@ -268,7 +290,7 @@ public class Matrix {
           for(int i=0;i<rows;i++) 
              System.out.print(matr[i][0] +" ");
           System.out.println();
-        }else // nxn
+        }else {// nxn
           while(top<=bottom && left<=right) { // Bounds for avoiding over-traversing
             // Due to many iterations, I isolate it in order not to declare its type again and again
             int i; 
@@ -301,7 +323,7 @@ public class Matrix {
                System.out.println();
              }
           }
-      }
+        }
    }
    // Find Triangular Matrix (upper & lower)
    public ArrayList<Matrix> UpperLowerTriangular() {

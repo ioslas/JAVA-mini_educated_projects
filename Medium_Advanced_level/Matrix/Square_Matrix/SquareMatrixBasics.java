@@ -2,6 +2,7 @@ import java.util.ArrayList;
 import java.util.Random;
 
 public class SquareMatrixBasics {
+	// Basic (only-can-do-)square matrix tasks 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		// Initialize rows and columns
@@ -11,12 +12,19 @@ public class SquareMatrixBasics {
 		
 		// Read matrix
 		matrix.CreateMatrix();
-		/* This is to show this matrix is identity
+		/* This is to show this matrix is identity 
 		    int[][] n = { {1,0,0},
 		  				  {0,1,0},
 		  				  {0,0,1}
 		  				};
 		  	matrix = new Matrix(n);
+		  	
+		  	This is to show this matrix is symmetric
+		  	int[][] n1 = { {1,2,3},
+		  				   {2,4,5},
+		  				   {3,5,6}
+		  				 };
+		  	matrix = new Matrix(n1);
 		*/
 		
 		// Print matrix
@@ -24,7 +32,7 @@ public class SquareMatrixBasics {
 		matrix.printMatrix();
 		
 		// Symmetric Matrix
-		if(matrix.isSymmetric(matrix.transpose()))
+		if(matrix.isSymmetric())
 			System.out.println("The matrix is symmetric");
 		else
 			System.out.println("The matrix is not symmetric");
