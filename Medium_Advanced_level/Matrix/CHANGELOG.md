@@ -40,19 +40,21 @@ while(...) { // Bounds for avoiding over-traversing
 
 ## [1.0.2] - 13-06-2025 13:52
 ### Changes to `MatrixRotation` class/problem:
-- Added `do ... while` loop with a user interaction `Do you want to continue? yes(y) or no(n)` in the main class in order to give the user the availability to see all the possible outcomes of the project depending on his choices, and not seeing only an outcome:
+- Added `do ... while` **loop** with a user interaction `Do you want to continue? yes(y) or no(n)` in the main class in order to give the user the availability to see all the possible outcomes of the project depending on his choices, and not seeing only an outcome:
+  - With the loop
+  ``` 
+  Give rotation degree (until 360): ...
+  
+  # Matrix (...) rotated in ... degrees is: 
+  ...
+  
+  Do you want to continue rotating(y/n)? y
+  
+  Give rotation degree (until 360): 
+  ...
+  ```
+
 ```
-# 
-Give rotation degree (until 360): ...
-
-# Matrix (...) rotated in ... degrees is: 
-...
-
-Do you want to continue rotating(y/n)? y
-
-Give rotation degree (until 360): 
-...
-
 
 ```   
 
