@@ -38,11 +38,11 @@ while(...) { // Bounds for avoiding over-traversing
   What operation do you want to do with scalar (+,-,*,/): ...
   ...
   ```
-**Conclusion**: Even though this slightly changes the **printing outcome**, the *core proccess* is remaining the same. It is therefore considered a **minor usability improvement** rather than a *functional change*
+**Conclusion**: Even though this slightly changes the **printed output**, the *core process* remains the same. Therefore, it's considered a **patch-level** change rather than a *(minor)* functional change
 
-## [1.0.2] - 13-06-2025 13:52
+## [1.1.] - 13-06-2025 13:52
 ### Changes to `MatrixRotation` class/problem:
-- Added `do ... while` **loop** with a user interaction `Do you want to continue? yes(y) or no(n)` in the main class in order to give the user the availability to see all the possible outcomes of the project depending on his choices, and not seeing only an outcome:
+- Added `do ... while` **loop** with a user interaction `Do you want to continue? yes(y) or no(n)` in the main class. This allows the user to explore **all possible outcomes** of the program based on different input choices (if they are acceptable), rather than seeing only a single result:
   - With the loop
   ``` 
   Give rotation degree (until 360): ...
@@ -64,7 +64,7 @@ while(...) { // Bounds for avoiding over-traversing
 
   #The end
   ```   
-
+**Summary**: Although this change may appear *similar* to the previous one, the **printed output** differs *significantly* from the original behavior. However, the core logic remains unchanged, so it is considered a minor change.  
 
 13/6 13:52 Add while in rotation
 14/6 12:33 Add static metrices
