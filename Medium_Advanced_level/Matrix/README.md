@@ -511,5 +511,5 @@ java StaticMatrices
   54 88 82 41 96 
   ```
   *Note*: The degrees are given **automatically (not from the user)**, wihtout checking if the number is *appropriate*(multiple of 90)<br>
-  or *0 & 360 -> matrix same* in order not to make the code bigger
+          or *0 & 360 -> matrix same* in order not to make the code bigger
 
