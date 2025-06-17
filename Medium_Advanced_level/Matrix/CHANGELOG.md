@@ -22,10 +22,10 @@ while(...) { // Bounds for avoiding over-traversing
   - With do ... while
   ```
   # !: symbol of ending the loop
-  Give operation (+,-,*,/):!
+  Give operation (+,-,*,/): !
   Null Operation. Try again (+,-,*,/)!
 
-  Give operation (+,-,*,/):!
+  Give operation (+,-,*,/): !
   #The End 
   ```
   - With while
@@ -33,9 +33,11 @@ while(...) { // Bounds for avoiding over-traversing
   Give operation (+,-,*,/):!
   #The End
   ```
-# Same thing with below too
-// What operation do you want to do with scalar (+,-,*,/)
-```
+  - Same thing with below too
+  ```
+  What operation do you want to do with scalar (+,-,*,/): ...
+  ...
+  ```
 **Conclusion**: Even though this slightly changes the **printing outcome**, the *core proccess* is remaining the same. It is therefore considered a **minor usability improvement** rather than a *functional change*
 
 ## [1.0.2] - 13-06-2025 13:52
