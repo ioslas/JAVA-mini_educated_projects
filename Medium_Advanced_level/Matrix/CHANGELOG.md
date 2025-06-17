@@ -7,7 +7,7 @@ if(top<=bottom)
   for(i=right;i>=left;i--) 
      ...
 ```
-2. Same adjustment for the traversal from down -> up, but also moving the entire block inside of the main loop (in the *previous version* this block was outside of the loop - still worked correctly)
+2. Same adjustment for the traversal from down -> up, but also moving the entire block inside of the main loop (in the *previous version* this block was outside of the loop - still worked properly)
 ```java
 while(...) { // Bounds for avoiding over-traversing           
    if(left <= right)
