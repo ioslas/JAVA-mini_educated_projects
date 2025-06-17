@@ -47,18 +47,23 @@ while(...) { // Bounds for avoiding over-traversing
   ``` 
   Give rotation degree (until 360): ...
   
-  # Matrix (...) rotated in ... degrees is: 
+  Matrix (...) rotated in ... degrees is: 
   ...
   
   Do you want to continue rotating(y/n)? y
   
-  Give rotation degree (until 360): 
+  Give rotation degree (until 360): ...
   ...
   ```
+  - Without the loop
+  ```
+  Give rotation degree (until 360): ...
 
-```
+  Matrix (...) rotated in ... degrees is: 
+  ...
 
-```   
+  #The end
+  ```   
 
 
 13/6 13:52 Add while in rotation
