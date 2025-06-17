@@ -16,7 +16,8 @@ while(...) { // Bounds for avoiding over-traversing
 ```
 **Conclusion**: While the **previous version** gave *accurate results*, **testing** showed that it only worked for specific shapes, like small or square matrices. So, it wasn't reliable enough for general matrices. Although the **outcome** itself didn’t change significantly, these *updates* improve the method’s **stability and reliability** for general cases.
   
-
+## [1.0.2] - 13-06-2025 13:27
+### Changes to `printSpiral()` method:
 
 
 
