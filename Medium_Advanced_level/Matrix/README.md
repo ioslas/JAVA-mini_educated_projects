@@ -526,8 +526,8 @@ java StaticMatrices
   0,041 0,013 -0,020 -0,035 
   0,027 0,038 -0,029 -0,049 
   ```
-  *Note*: The adjoint and determinant are used more as values procedures for the inverse method and they are not printed which doesn't concern us because is going to give the same result with the other class which makes the same procedure.<br>
-  The same thing applied for det=0:
+  *Note*: The adjoint and determinant are used internally as value-based steps for calculating the inverse. Their results are not printed which is not considered as an issue because both implementations follow the same logic and produce identical results — meaning the final outcome (inverse) is not affected.<br>
+  Same thing can be applied when det=0:
   ```
   # The det of this matrix = 0
   Original Matrix (3x3):
