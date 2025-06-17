@@ -554,7 +554,7 @@ java StaticMatrices
         for(int j=0;j<cols;j++)
            C[i][j] = A[i][j] * B[i][j];
       ```
-   b) Make the result easy to interpret visually (because with the raw matrix multiplication can be hard for users to follow) 
+   b) Make the result easy to interpret visually (because raw matrix multiplication can be hard for users to follow) 
       ```
       Matrix A(2x2)      Matrix B(2x2)
       3 20               11  4
@@ -564,5 +564,5 @@ java StaticMatrices
       33 80 
       25 47 
       ``` 
-2.   
+2. 
  
