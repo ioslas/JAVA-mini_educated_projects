@@ -511,5 +511,28 @@ java StaticMatrices
   54 88 82 41 96 
   ```
   *Note*: The degree values are generated **automatically (not provided by the user)**, and there is no *validation* to check if the value is appropriate *(e.g. being a multiple of 90)* or value=*0 or 360 -> matrix is the same*. This was done to keep the code **minimal** and **focused** on the core transformation logic.
-
-
+  
+  - **StaticMatricesInverse**
+  ```
+  Original Matrix (4x4):
+  47 43 52 24 
+  77 68 9 90 
+  83 10 3 27 
+  36 70 34 46 
+  
+  Inverse matrix (4x4):
+  -0,006 -0,010 0,020 0,010 
+  -0,035 -0,026 0,019 0,058 
+  0,041 0,013 -0,020 -0,035 
+  0,027 0,038 -0,029 -0,049 
+  ```
+  *Note*: The adjoint and determinant are used more as values procedures for the inverse method and they are not printed which doesn't concern us because is going to give the same result with the other class which makes the same procedure.<br>
+  The same thing applied for det=0:
+  ```
+  # The det of this matrix = 0
+  Original Matrix (3x3):
+  2 4 6 
+  1 3 5 
+  0 2 4 
+  
+  Matrix is not invertible
