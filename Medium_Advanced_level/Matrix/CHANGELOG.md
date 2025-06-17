@@ -18,7 +18,7 @@ while(...) { // Bounds for avoiding over-traversing
   
 ## [1.0.2] - 13-06-2025 13:27
 ### Changes to `MatrixCalculations` problem:
-- I chnage the `do ... while` loop to `while` loop when **prompting** the user for an operation (`+, -, *, /`), in order to avoid an unnecessary **first iteration** when the user wants to *exit immediately*:
+- Chnaged the `do ... while` loop to `while` loop when **prompting** the user for an operation (`+, -, *, /`), in order to avoid an unnecessary **first iteration** when the user wants to *exit immediately*:
 ```
 # With do...while
 # !: symbol of ending the loop
