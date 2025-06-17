@@ -539,7 +539,7 @@ java StaticMatrices
   ```
 
 ## Notes
-1. In **Multiplication** between matrices, I use the **Hadamard product/element-wise multiplication** (providing that the 2 matrices have the **same dimensions**) in order to: 
+1. In **Multiplication** between matrices, I use the **Hadamard product/element-wise multiplication** (providing that the 2 matrices have the **same dimensions**) in order to:<br>
    a) Avoid an extra nested loop
       ```java
       // General Matrix Multiplication
