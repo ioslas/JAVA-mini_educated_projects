@@ -35,7 +35,7 @@ Give operation (+,-,*,/):!
 # Same thing with below too
 // What operation do you want to do with scalar (+,-,*,/)
 ```
-**Conclusion**: Even though this changes slightly the **printing outcome**, the core proccess is remaining the same. It is therefore considered a **minor usability improvement** rather than a *functional change*
+**Conclusion**: Even though this slightly changes the **printing outcome**, the core proccess is remaining the same. It is therefore considered a **minor usability improvement** rather than a *functional change*
 
 
 
