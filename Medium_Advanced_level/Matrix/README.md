@@ -431,5 +431,84 @@ java StaticMatrices
 
   Matrix is not invertible
   ```
-- **Static Matrices** (**src** folder)
-  -   d
+- **Main/src** folder (*static* Matrix)
+  - **Static Matrices**
+  ```
+  Original Matrix (5x5):
+  54 64 87 60 6 
+  88 76 2 79 90 
+  82 37 7 10 69 
+  41 11 54 42 75 
+  96 25 15 54 91 
+  
+  Transposed Matrix (5x5):
+  54 88 82 41 96 
+  64 76 37 11 25 
+  87 2 7 54 15 
+  60 79 10 42 54 
+  6 90 69 75 91 
+  
+  Main diagonal sum of Matrix = 270
+  Secondary diagonal sum of Matrix = 199
+  
+  The matrix is not symmetric
+  
+  The matrix is not identity
+  
+  Upper Triangular of matrix:
+  0 64 87 60 6 
+  0 0 2 79 90 
+  0 0 0 10 69 
+  0 0 0 0 75 
+  0 0 0 0 0 
+  
+  Lower Triangular of matrix:
+  0 0 0 0 0 
+  88 0 0 0 0 
+  82 37 0 0 0 
+  41 11 54 0 0 
+  96 25 15 54 0 
+  
+  Sum of Matrix's elements each row: 
+  271 335 205 223 281 
+  
+  Sum of Matrix's elements each column: 
+  361 213 165 245 331 
+  
+  Minimum element of Matrix = 2
+  Maximum element of Matrix = 96
+  
+  Matrix's elements in spiral order:
+  54 64 87 60 6 
+  90 69 75 91 
+  54 15 25 96 
+  41 82 88 
+  76 2 79 
+  10 42 
+  54 11 
+  37 
+  7 
+ 
+  Matrix (5x5) rotated in 90 degrees is: 
+  96 41 82 88 54 
+  25 11 37 76 64 
+  15 54 7 2 87 
+  54 42 10 79 60 
+  91 75 69 90 6 
+  
+  Matrix (5x5) rotated in 180 degrees is: 
+  91 54 15 25 96 
+  75 42 54 11 41 
+  69 10 7 37 82 
+  90 79 2 76 88 
+  6 60 87 64 54 
+  
+  Matrix (5x5) rotated in 270 degrees is: 
+  6 90 69 75 91 
+  60 79 10 42 54 
+  87 2 7 54 15 
+  64 76 37 11 25 
+  54 88 82 41 96 
+  ```
+  *Note*: The degrees are given **automatically (not from the user)**, wihtout checking if the number is *appropriate*(multiple of 90) or *0 & 360 -> matrix same* in order not to make the code bigger
+
