@@ -552,8 +552,7 @@ java StaticMatrices
       // Hadamard
       for(int i=0;i<rows;i++)
         for(int j=0;j<cols;j++)
-           C[i][j] = A[i][J] * B[I][j];
-        			
+           C[i][j] = A[i][j] * B[i][j];
       ```
    b) Make the result easy to interpret visually (because with the raw matrix multiplication can be hard for users to follow) 
       ```
