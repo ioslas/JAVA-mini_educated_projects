@@ -564,4 +564,4 @@ java StaticMatrices
       33 80 
       25 47 
       ``` 
-2. In **Static Matrices**, I chose not to implement **full calculations** (like *addition, multiplication*). These would require **complex and repetitive code** (especially for *division*), while the **core logic** is already demonstrated elsewhere and remains nearly *identical*.
+2. In **Static Matrices**, I chose not to implement **full calculations** (like *addition, multiplication,e.g.*). These would require **complex and repetitive code** (especially for *division*), while the **core logic** is already demonstrated elsewhere and remains nearly *identical*.
