@@ -17,8 +17,22 @@ while(...) { // Bounds for avoiding over-traversing
 **Conclusion**: While the **previous version** gave *accurate results*, **testing** showed that it only worked for specific shapes, like small or square matrices. So, it wasn't reliable enough for general matrices. Although the **outcome** itself didn’t change significantly, these *updates* improve the method’s **stability and reliability** for general cases.
   
 ## [1.0.2] - 13-06-2025 13:27
-### Changes to `printSpiral()` method:
+### Changes to `MatrixCalculations` problem:
+- I chnage the `do ... while` loop to `while` when asking the operation(+,*, e.g.) the user wants to use, in order to avoid an extra loop at start when the user wants to finish the loop:
+```
+# With do...while
+# !: symbol of ending the loop
+Give operation (+,-,*,/):!
+Null Operation. Try again (+,-,*,/)!
 
+Give operation (+,-,*,/):!
+#The End 
+
+# With while
+Give operation (+,-,*,/):!
+#The End
+```
+-   
 
 
 
