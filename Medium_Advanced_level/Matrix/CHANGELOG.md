@@ -76,7 +76,7 @@ while(...) { // Bounds for avoiding over-traversing
 
 **Summary**: Even though these classes are *one-shots* procedural implementations, they introduce a completely different **structural approach** to the project. As a result, this is considered a **major** change.
 
-## [2.1.1] - 16-06-2025 16:11
+## [2.1.1] - 15-06-2025 16:11
 ### Change in both `calculate()` methods of `Matrix` class
 - Replaces `if-else` with `switch` statement. This improves **readability**, simplifies **execution flow**, and makes the logic easier to **write, understand, and maintain**.
   - with **if**
@@ -105,4 +105,45 @@ while(...) { // Bounds for avoiding over-traversing
   ```
 **Conclusion**: The printed **result** remains the same, only  **internal code structure** was modified. Therefore, this is considered a **patch-level** change.
 
+## [2.2.0] - 15-06-2025 17:11
+### Change in `calculate(String)` method of `Matrix` class
+- Replacing `default:` of `switch` statement to `if` statement and moving it above from `switch` and the reading of **scalar** so when user wants to stop giving operations for `MatrixCalculations`, isn't *obliged* to give the **scalar(number)**
+  - With **default**
+  ```java
+  System.out.print("Give scalar: ");
+  int scalar=new Scanner(System.in).nextInt();
+
+  switch(...) {
+      ...
+      default:
+          ...
+  }
+  ```
+  **Outcome**
+  ```
+  What operation do you want to do with scalar (+,-,*,/): !
+  Give scalar:
+
+  End of operations.
+  ```
+  - With new **if**
+  ```java
+  if(...)
+    ...
+  
+  System.out.print("Give scalar: ");
+  int scalar=new Scanner(System.in).nextInt();
+
+  switch(...) {
+      ...
+  }
+  ```
+  **Outcome**
+  ```
+  What operation do you want to do with scalar (+,-,*,/): !
+
+  End of operations.
+  ```
+  
 15/6 17:11 move default check -> first if check
+16/6 17:43 println -> printf
