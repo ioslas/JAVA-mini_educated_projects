@@ -19,7 +19,7 @@ while(...) { // Bounds for avoiding over-traversing
 ## [1.0.2] - 13-06-2025 13:27
 ### Changes to `MatrixCalculations` class/problem:
 - Chnaged the `do ... while` loop to `while` loop when **prompting** the user for an operation (`+, -, *, /`), in order to avoid an unnecessary **first iteration** when the user wants to *exit immediately*:
-  - With do ... while
+  - With **do ... while**
   ```
   # !: symbol of ending the loop
   Give operation (+,-,*,/): !
@@ -28,7 +28,7 @@ while(...) { // Bounds for avoiding over-traversing
   Give operation (+,-,*,/): !
   #The End 
   ```
-  - With while
+  - With **while**
   ```
   Give operation (+,-,*,/):!
   #The End
@@ -43,7 +43,7 @@ while(...) { // Bounds for avoiding over-traversing
 ## [1.1.0] - 13-06-2025 13:52
 ### Changes to `MatrixRotation` class/problem:
 - Added `do ... while` **loop** with a user interaction `Do you want to continue? yes(y) or no(n)` in the main class. This allows the user to explore **all possible outcomes** of the program based on different input choices (if they are acceptable), rather than seeing only a single result:
-  - With the loop
+  - **With the loop**
   ``` 
   Give rotation degree (until 360): ...
   
@@ -55,7 +55,7 @@ while(...) { // Bounds for avoiding over-traversing
   Give rotation degree (until 360): ...
   ...
   ```
-  - Without the loop
+  - **Without the loop**
   ```
   Give rotation degree (until 360): ...
 
@@ -75,7 +75,32 @@ while(...) { // Bounds for avoiding over-traversing
   2. **StaticMatricesInverse**: Contains the full procedure for computing the inverse of the matrix (if it's possible)
 
 **Summary**: Even though these classes are *one-shots* procedural implementations, they introduce a completely different **structural approach** to the project. As a result, this is considered a **major** change.
-  
 
+## [2.1.0] - 15-06-2025 16:11
+### Change in both `calculate()` methods of `Matrix` class
+- Changed `if` statement to `switch` statement. It makes the code more easier to understand visually reading, writting and executing compare to if
+  - with **if**
+  ```java
+  if(op.equals(+))
+    ...
+  else if(op.equals(-))
+    ...
+  ...
+  else
+    ...
+  ```
+  - with **switch**
+  ```java
+  switch(op) {
+    case("+"):
+        ...
+    case("-):
+        ...
+    ...
+    default:
+      ... 
+  }
+  ```
+  - 
 15/6 16:11 change operations if -> switch
 16/6 17:11 move default check -> first if check
