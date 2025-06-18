@@ -76,9 +76,9 @@ while(...) { // Bounds for avoiding over-traversing
 
 **Summary**: Even though these classes are *one-shots* procedural implementations, they introduce a completely different **structural approach** to the project. As a result, this is considered a **major** change.
 
-## [2.1.0] - 15-06-2025 16:11
+## [2.1.1] - 16-06-2025 16:11
 ### Change in both `calculate()` methods of `Matrix` class
-- Changed `if` statement to `switch` statement. It makes the code more easier to understand visually reading, writting and executing compare to if
+- Replaces `if-else` with `switch` statement. This improves **readability**, simplifies **execution flow**, and makes the logic easier to **write, understand, and maintain**.
   - with **if**
   ```java
   if(op.equals(+))
@@ -94,13 +94,15 @@ while(...) { // Bounds for avoiding over-traversing
   switch(op) {
     case("+"):
         ...
+        break;
     case("-):
         ...
+        break;
     ...
     default:
       ... 
   }
   ```
-  - 
-15/6 16:11 change operations if -> switch
-16/6 17:11 move default check -> first if check
+**Conclusion**: The printed *result* remains the same, only  **internal code structure** was modified. Therefore, this is considered a **patch-level** change.
+
+15/6 17:11 move default check -> first if check
