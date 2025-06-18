@@ -146,3 +146,24 @@ while(...) { // Bounds for avoiding over-traversing
   ```
 **Final Notes**: This change improves **input handling** by preventing unnecessary **scalar input** when the user exits, but the *core logic* was not altered. Therefore, this is considered a **patch-level** update.
 
+## [2.1.3] - 15-06-2025 18:43
+### Change in `display()` method of `SquareMatrixOperations` class
+- Replaced `System.out.println()` -> `System.out.printf()` to display **floating-point** results with at least *3 decimal digits*.
+  - `System.out.println()`
+  ```
+  # Positive
+  4.7858663
+  
+  # Negative
+  -0.73599553
+  ```
+  - `System.out.printf("%.3f", ...)`
+  ```
+  # Positive
+  4.785
+  
+  # Negative
+  -0.735
+  ```
+  
+Final Remark
