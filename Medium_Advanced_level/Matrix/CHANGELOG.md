@@ -66,7 +66,16 @@ while(...) { // Bounds for avoiding over-traversing
   ```   
 **Summary**: Although this change may appear *similar* to the previous one, the **printed output** differs *significantly* from the original behavior. However, the core logic remains unchanged, so it is considered a minor change.  
 
+## [2.0.0] - 14-06-2025 12:33
+### Extra classes in src folder
+- Added 2 **StaticMatrices** classes in the same folder as the core **Matrix.java**. These classes demonstrate an *alternative* way of working with matrices using **static methods**, without interacting with the core class.
 
+  The classes are:
+  1. **StaticMatrices**: Implements approximately **75%** of the functions found in the *previous code versions* (e.g. matrix rotation, symmetric/identity matrix, etc.).
+  2. **StaticMatricesInverse**: Contains the full procedure for computing the inverse of the matrix (if it's possible)
+
+**Summary**: Even though the classes are *one-shots* procedure codes, it changes completely the structure of the project, so it's a major change.
+  
 
 14/6 12:33 Add static metrices
 15/6 16:11 change operations if -> switch
