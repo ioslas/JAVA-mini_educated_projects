@@ -105,7 +105,7 @@ while(...) { // Bounds for avoiding over-traversing
   ```
 **Final Notes**: The printed **result** remains the same, only  **internal code structure** was modified. Therefore, this is considered a **patch-level** change.
 
-## [2.1.2] - 15-06-2025 17:
+## [2.1.2] - 15-06-2025 17:11
 ### Change in `calculate(String)` method of `Matrix` class
 - Replaced the `default:` case in`switch` statement with an `if` condition and placed **before** the `switch` and **scalar input**. This change prevents the program from asking for a **scalar value** when the user intends to *stop* the matrix calculations (e.g. by entering `!`).
   - With **default**
@@ -165,5 +165,4 @@ while(...) { // Bounds for avoiding over-traversing
   # Negative
   -0.735
   ```
-  
-Final Remark
+**Final Remark**: This is a **visual improvement** — the *calculation logic* remains unchanged. So, it's **patch-level** change.
