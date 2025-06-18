@@ -1,6 +1,6 @@
 # JAVA Matrix
 ![Language](https://img.shields.io/badge/Language-Java-blue)
-![Version](https://img.shields.io/badge/Version-2.1.3-5d4037)
+![Version](https://img.shields.io/badge/Version-2.1.3-brown)
 ![Status](https://img.shields.io/badge/Status-Completed-brightgreen)
 
 ## Module
