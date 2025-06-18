@@ -103,6 +103,6 @@ while(...) { // Bounds for avoiding over-traversing
       ... 
   }
   ```
-**Conclusion**: The printed *result* remains the same, only  **internal code structure** was modified. Therefore, this is considered a **patch-level** change.
+**Conclusion**: The printed **result** remains the same, only  **internal code structure** was modified. Therefore, this is considered a **patch-level** change.
 
 15/6 17:11 move default check -> first if check
