@@ -103,9 +103,9 @@ while(...) { // Bounds for avoiding over-traversing
       ... 
   }
   ```
-**Conclusion**: The printed **result** remains the same, only  **internal code structure** was modified. Therefore, this is considered a **patch-level** change.
+**Final Notes**: The printed **result** remains the same, only  **internal code structure** was modified. Therefore, this is considered a **patch-level** change.
 
-## [2.2.0] - 15-06-2025 17:11
+## [2.1.2] - 15-06-2025 17:
 ### Change in `calculate(String)` method of `Matrix` class
 - Replaced the `default:` case in`switch` statement with an `if` condition and placed **before** the `switch` and **scalar input**. This change prevents the program from asking for a **scalar value** when the user intends to *stop* the matrix calculations (e.g. by entering `!`).
   - With **default**
@@ -144,6 +144,5 @@ while(...) { // Bounds for avoiding over-traversing
 
   End of operations.
   ```
-  
-15/6 17:11 move default check -> first if check
-16/6 17:43 println -> printf
+**Final Notes**: This change improves **input handling** by preventing unnecessary **scalar input** when the user exits, but the *core logic* was not altered. Therefore, this is considered a **patch-level** update.
+
