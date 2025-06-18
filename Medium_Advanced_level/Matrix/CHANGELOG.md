@@ -40,7 +40,7 @@ while(...) { // Bounds for avoiding over-traversing
   ```
 **Conclusion**: Even though this slightly changes the **printed output**, the *core process* remains the same. Therefore, it's considered a **patch-level** change rather than a *(minor)* functional change
 
-## [1.1.] - 13-06-2025 13:52
+## [1.1.0] - 13-06-2025 13:52
 ### Changes to `MatrixRotation` class/problem:
 - Added `do ... while` **loop** with a user interaction `Do you want to continue? yes(y) or no(n)` in the main class. This allows the user to explore **all possible outcomes** of the program based on different input choices (if they are acceptable), rather than seeing only a single result:
   - With the loop
@@ -66,7 +66,8 @@ while(...) { // Bounds for avoiding over-traversing
   ```   
 **Summary**: Although this change may appear *similar* to the previous one, the **printed output** differs *significantly* from the original behavior. However, the core logic remains unchanged, so it is considered a minor change.  
 
-13/6 13:52 Add while in rotation
+
+
 14/6 12:33 Add static metrices
 15/6 16:11 change operations if -> switch
 16/6 17:11 move default check -> first if check
