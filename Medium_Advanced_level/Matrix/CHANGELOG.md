@@ -64,7 +64,7 @@ while(...) { // Bounds for avoiding over-traversing
 
   #The end
   ```   
-**Summary**: Although this change may appear *similar* to the previous one, the **printed output** differs *significantly* from the original behavior. However, the core logic remains unchanged, so it is considered a minor change.  
+**Summary**: Although this change may appear *similar* to the previous one, the **printed output** differs *significantly* from the original behavior. However, the core logic remains unchanged, so it is considered a **minor** change.  
 
 ## [2.0.0] - 14-06-2025 12:33
 ### Extra classes in src folder
@@ -74,9 +74,8 @@ while(...) { // Bounds for avoiding over-traversing
   1. **StaticMatrices**: Implements approximately **75%** of the functions found in the *previous code versions* (e.g. matrix rotation, symmetric/identity matrix, etc.).
   2. **StaticMatricesInverse**: Contains the full procedure for computing the inverse of the matrix (if it's possible)
 
-**Summary**: Even though these classes are *one-shots* procedural implementations, they introduce a completely different structural approach to the project. As a result, this is considered a major change.
+**Summary**: Even though these classes are *one-shots* procedural implementations, they introduce a completely different **structural approach** to the project. As a result, this is considered a **major** change.
   
 
-14/6 12:33 Add static metrices
 15/6 16:11 change operations if -> switch
 16/6 17:11 move default check -> first if check
