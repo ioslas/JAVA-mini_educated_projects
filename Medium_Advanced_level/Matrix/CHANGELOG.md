@@ -119,7 +119,7 @@ while(...) { // Bounds for avoiding over-traversing
           ...
   }
   ```
-  **Outcome**
+  > **Outcome**
   ```
   What operation do you want to do with scalar (+,-,*,/): !
   Give scalar:
@@ -138,7 +138,7 @@ while(...) { // Bounds for avoiding over-traversing
       ...
   }
   ```
-  **Outcome**
+  > **Outcome**
   ```
   What operation do you want to do with scalar (+,-,*,/): !
 
