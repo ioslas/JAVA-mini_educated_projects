@@ -107,7 +107,7 @@ while(...) { // Bounds for avoiding over-traversing
 
 ## [2.2.0] - 15-06-2025 17:11
 ### Change in `calculate(String)` method of `Matrix` class
-- Replacing `default:` of `switch` statement to `if` statement and moving it above from `switch` and the reading of **scalar** so when user wants to stop giving operations for `MatrixCalculations`, isn't *obliged* to give the **scalar(number)**
+- Replaced the `default:` case in`switch` statement with an `if` condition and placed **before** the `switch` and **scalar input**. This change prevents the program from asking for a **scalar value** when the user intends to *stop* the matrix calculations (e.g. by entering `!`).
   - With **default**
   ```java
   System.out.print("Give scalar: ");
@@ -126,7 +126,7 @@ while(...) { // Bounds for avoiding over-traversing
 
   End of operations.
   ```
-  - With new **if**
+  - With new updated **if**
   ```java
   if(...)
     ...
