@@ -74,7 +74,7 @@ while(...) { // Bounds for avoiding over-traversing
   1. **StaticMatrices**: Implements approximately **75%** of the functions found in the *previous code versions* (e.g. matrix rotation, symmetric/identity matrix, etc.).
   2. **StaticMatricesInverse**: Contains the full procedure for computing the inverse of the matrix (if it's possible)
 
-**Summary**: Even though the classes are *one-shots* procedure codes, it changes completely the structure of the project, so it's a major change.
+**Summary**: Even though these classes are *one-shots* procedural implementations, they introduce a completely different structural approach to the project. As a result, this is considered a major change.
   
 
 14/6 12:33 Add static metrices
