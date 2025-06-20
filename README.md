@@ -10,7 +10,7 @@ The codes are organized into ("educational") difficulty levels based on **concep
 - **medium/advanced**: More educational and problem-solving oriented projects, aimed more for self-taught learners who want to improve their programming skills.
 - **(pre-)professional/senior**: More complete and structured projects. Suitable for graduated thesis (even in internships) or building portfolios. 
 
-## 📄 License
+## License
 🔒 This repository is for educational use and personal practice only.
 You may download and explore the codes, but you may not reuse, republish, or modify it in any public form without permission. 
 See [LICENSE](./LICENSE.txt) for details.
