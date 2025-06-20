@@ -1,5 +1,5 @@
 # Main Repository
-![Status](https://img.shields.io/badge/status-In_Progress-yellow)
+![Status](https://img.shields.io/badge/Status-In_Progress-yellow)
 ## Introduction
 This is the main/master repository which contains various small-educational projects/codes (created or imported from desktop)
 for improving portfolios or practice in **Java** language.
