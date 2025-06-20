@@ -12,5 +12,5 @@ The codes are organized into ("educational") difficulty levels based on **concep
 
 ## 📄 License
 🔒 This repository is for educational use and personal practice only.
-You may download and explore the code, but you may not reuse, republish, or modify it in any public form. 
+You may download and explore the codes, but you may not reuse, republish, or modify it in any public form without permission. 
 See [LICENSE](./LICENSE.txt) for details.
