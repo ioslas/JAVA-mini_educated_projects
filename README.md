@@ -11,6 +11,6 @@ The codes are organized into ("educational") difficulty levels based on **concep
 - **(pre-)professional/senior**: More complete and structured projects. Suitable for graduated thesis (even in internships) or building portfolios. 
 
 ## 📄 License
-🔒 This repository is for educational use and personal practice only.
-You may download and explore the codes, but you may not reuse, republish, or modify it in any public form without permission. 
+🔒 This repository is for **educational use and personal practice** only.
+You may download and explore the codes, but you may not **reuse, republish, or modify** it in any public form without permission. 
 See [LICENSE](./LICENSE.txt) for details.
